@@ -378,32 +378,34 @@
             opacity: 1;
         }
         
-        .album-title {
-            font-weight: 700;
-            margin-bottom: 4px;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            font-size: 0.4rem; /* REDUCED from 0.95rem */
-            font-style: italic; /* ADDED italic */
-            color: var(--accent-secondary); /* ADDED different color */
-        }
-        
-        .album-artist {
-            color: var(--text-secondary);
-            font-size: 0.4rem; /* REDUCED from 0.85rem */
-            margin-bottom: 5px;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
-        
-        .album-meta {
-            display: flex;
-            justify-content: space-between;
-            font-size: 0.8rem;
-            color: var(--accent-secondary);
-        }
+        .album-info .album-title {
+    font-weight: 700;
+    margin-bottom: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.7rem;
+    font-style: italic;
+    color: var(--accent-secondary);
+    line-height: 1.2;
+}
+
+.album-info .album-artist {
+    color: var(--text-secondary);
+    font-size: 0.65rem;
+    margin-bottom: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.2;
+}
+
+.album-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7rem;
+    color: var(--accent-secondary);
+}
         
         /* Cubby View - UPDATED for horizontal scrolling */
         .cubbies-container-wrapper {
@@ -615,22 +617,22 @@
             transform: scale(1.1);
         }
         
-        .album-title {
-            font-size: 1.9em;
-            font-weight: 300;
-            font-style: italic;
-            color: var(--accent-secondary);
-            margin-bottom: 8px;
-            line-height: 1.2;
-            padding-right: 45px;
-        }
-        
-        .album-artist {
-            font-size: 1.3em;
-            color: var(--accent-primary);
-            margin-bottom: 20px;
-            font-weight: 500;
-        }
+        .album-detail-info .album-title {
+    font-size: 1.9em;
+    font-weight: 300;
+    font-style: italic;
+    color: var(--accent-secondary);
+    margin-bottom: 8px;
+    line-height: 1.2;
+    padding-right: 45px;
+}
+
+.album-detail-info .album-artist {
+    font-size: 1.3em;
+    color: var(--accent-primary);
+    margin-bottom: 20px;
+    font-weight: 500;
+}
         
         .info-group {
             margin-bottom: 18px;
@@ -1329,4 +1331,5 @@
     </script>
 </body>
 </html>
+
 
