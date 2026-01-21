@@ -80,81 +80,12 @@
             z-index: 1;
         }
         
-        /* Search Bar Styles - NEW */
-        .search-section {
-            background: rgba(16, 20, 35, 0.7);
-            backdrop-filter: blur(10px);
-            border: 1px solid var(--border-color);
-            border-radius: 20px;
-            padding: 20px 30px;
-            margin-bottom: 25px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4),
-                        inset 0 1px 0 rgba(255, 255, 255, 0.1);
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .search-section::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 2px;
-            background: linear-gradient(90deg, transparent, var(--accent-primary), var(--accent-nebula), transparent);
-            animation: headerGlow 3s ease-in-out infinite alternate;
-        }
-        
-        .search-container {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-        }
-        
-        .search-icon {
-            font-size: 1.5rem;
-            color: var(--accent-secondary);
-            background: linear-gradient(135deg, var(--accent-primary), var(--accent-nebula));
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-        }
-        
-        .search-input {
-            flex: 1;
-            background: rgba(22, 27, 42, 0.9);
-            border: 1px solid var(--border-color);
-            border-radius: 12px;
-            padding: 14px 20px;
-            color: var(--text-primary);
-            font-size: 1rem;
-            transition: all 0.3s ease;
-            backdrop-filter: blur(5px);
-        }
-        
-        .search-input:focus {
-            outline: none;
-            border-color: var(--accent-primary);
-            box-shadow: 0 0 20px rgba(138, 111, 255, 0.3);
-        }
-        
-        .search-input::placeholder {
-            color: var(--text-secondary);
-        }
-        
-        .search-results-count {
-            color: var(--text-secondary);
-            font-size: 0.9rem;
-            margin-top: 10px;
-            text-align: center;
-        }
-        
         /* Header styles */
         header {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 25px;
+            margin-bottom: 30px;
             padding: 25px 30px;
             border-radius: 20px;
             background: rgba(16, 20, 35, 0.7);
@@ -283,6 +214,8 @@
             letter-spacing: 1px;
         }
         
+        /* REMOVED: Data Management Section */
+        
         /* View mode containers */
         .view-container {
             display: none;
@@ -298,7 +231,7 @@
             to { opacity: 1; transform: translateY(0); }
         }
         
-        /* Shelf Row View */
+        /* Shelf Row View - UPDATED for square albums and single scrollbar */
         .shelves-container {
             display: flex;
             flex-direction: column;
@@ -388,7 +321,7 @@
             padding: 5px;
         }
         
-        /* SQUARE ALBUM CARDS */
+        /* SQUARE ALBUM CARDS - Full display without cropping */
         .album-card {
             background: linear-gradient(145deg, rgba(22, 27, 42, 0.9), rgba(16, 20, 35, 0.9));
             border-radius: 12px;
@@ -446,65 +379,34 @@
         }
         
         .album-info .album-title {
-            font-weight: 700;
-            margin-bottom: 4px;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            font-size: 0.75rem;
-            font-style: italic;
-            color: var(--accent-secondary);
-            line-height: 1.2;
-        }
-        
-        .album-info .album-artist {
-            color: var(--accent-primary);
-            font-size: 0.7rem;
-            margin-bottom: 5px;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            line-height: 1.2;
-        }
-        
-        .album-meta {
-            display: flex;
-            justify-content: space-between;
-            font-size: 0.7rem;
-            color: var(--accent-secondary);
-        }
-        
-        /* Search Gallery View - NEW */
-        .search-gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-            gap: 25px;
-            padding: 20px 0;
-            max-height: none;
-            overflow-y: visible;
-        }
-        
-        .search-gallery .album-card {
-            width: 100%;
-            height: 180px;
-        }
-        
-        .no-results {
-            grid-column: 1 / -1;
-            text-align: center;
-            padding: 60px 20px;
-            color: var(--text-secondary);
-            font-size: 1.1rem;
-        }
-        
-        .no-results i {
-            font-size: 3rem;
-            margin-bottom: 20px;
-            background: linear-gradient(135deg, var(--accent-primary), var(--accent-nebula));
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-        }
+    font-weight: 700;
+    margin-bottom: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.75rem; /* Slightly bigger than 0.7rem */
+    font-style: italic;
+    color: var(--accent-secondary);
+    line-height: 1.2;
+}
+
+.album-info .album-artist {
+    color: #a88bff; /* Brighter purple */
+    font-size: 0.7rem;
+    margin-bottom: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.2;
+    font-weight: 600; /* Slightly bolder */
+}
+
+.album-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7rem;
+    color: var(--accent-secondary);
+}
         
         /* Cubby View - UPDATED for horizontal scrolling */
         .cubbies-container-wrapper {
@@ -518,7 +420,7 @@
             grid-template-rows: repeat(5, 1fr);
             gap: 15px;
             min-height: 70vh;
-            width: max-content;
+            width: max-content; /* FIX: Prevents resizing, allows horizontal scroll */
             min-width: 100%;
             margin-bottom: 40px;
         }
@@ -537,7 +439,7 @@
             aspect-ratio: 1 / 1;
             min-height: 200px;
             width: 100%;
-            min-width: 200px;
+            min-width: 200px; /* FIX: Prevents shrinking */
         }
         
         .cubby:hover {
@@ -717,21 +619,21 @@
         }
         
         .album-detail-info .album-title {
-            font-size: 1.9em;
-            font-weight: 300;
-            font-style: italic;
-            color: var(--accent-secondary);
-            margin-bottom: 8px;
-            line-height: 1.2;
-            padding-right: 45px;
-        }
-        
-        .album-detail-info .album-artist {
-            font-size: 1.3em;
-            color: var(--accent-primary);
-            margin-bottom: 20px;
-            font-weight: 500;
-        }
+    font-size: 1.9em;
+    font-weight: 300;
+    font-style: italic;
+    color: var(--accent-secondary);
+    margin-bottom: 8px;
+    line-height: 1.2;
+    padding-right: 45px;
+}
+
+.album-detail-info .album-artist {
+    font-size: 1.3em;
+    color: var(--accent-primary);
+    margin-bottom: 20px;
+    font-weight: 500;
+}
         
         .info-group {
             margin-bottom: 18px;
@@ -854,11 +756,7 @@
                 gap: 20px;
             }
             
-            .search-gallery {
-                grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-            }
-            
-            .album-card, .search-gallery .album-card {
+            .album-card {
                 width: 160px;
                 height: 160px;
             }
@@ -868,11 +766,6 @@
             .cubbies-container {
                 grid-template-columns: repeat(2, 1fr);
                 grid-template-rows: repeat(15, auto);
-            }
-            
-            .search-gallery {
-                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-                gap: 20px;
             }
             
             .album-detail-container {
@@ -915,26 +808,13 @@
                 grid-template-rows: repeat(15, auto);
             }
             
-            .search-gallery {
-                grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-            }
-            
-            .album-card, .search-gallery .album-card {
+            .album-card {
                 width: 140px;
                 height: 140px;
             }
             
             .shelf-row {
                 min-height: 260px;
-            }
-            
-            .search-container {
-                flex-direction: column;
-                align-items: stretch;
-            }
-            
-            .search-input {
-                width: 100%;
             }
         }
         
@@ -944,12 +824,7 @@
                 grid-template-rows: repeat(30, auto);
             }
             
-            .search-gallery {
-                grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-                gap: 15px;
-            }
-            
-            .album-card, .search-gallery .album-card {
+            .album-card {
                 width: 120px;
                 height: 120px;
             }
@@ -982,7 +857,6 @@
                 <select id="viewMode" class="view-mode-select">
                     <option value="shelf-row">Shelf Row View</option>
                     <option value="cubby">Cubby View (A-F, 1-5)</option>
-                    <option value="search">Search Results</option>
                 </select>
                 
                 <div class="stats">
@@ -998,17 +872,6 @@
             </div>
         </header>
         
-        <!-- Search Bar - NEW -->
-        <section class="search-section">
-            <div class="search-container">
-                <div class="search-icon">
-                    <i class="fas fa-search"></i>
-                </div>
-                <input type="text" id="searchInput" class="search-input" placeholder="Search albums or artists...">
-            </div>
-            <div class="search-results-count" id="searchResultsCount"></div>
-        </section>
-        
         <!-- Shelf Row View -->
         <div id="shelfRowView" class="view-container active">
             <div class="shelves-container">
@@ -1016,19 +879,12 @@
             </div>
         </div>
         
-        <!-- Cubby View -->
+        <!-- Cubby View - UPDATED with wrapper for horizontal scroll -->
         <div id="cubbyView" class="view-container">
             <div class="cubbies-container-wrapper">
                 <div class="cubbies-container">
                     <!-- Cubbies will be generated by JavaScript -->
                 </div>
-            </div>
-        </div>
-        
-        <!-- Search Gallery View - NEW -->
-        <div id="searchView" class="view-container">
-            <div class="search-gallery" id="searchGallery">
-                <!-- Search results will be generated by JavaScript -->
             </div>
         </div>
         
@@ -1079,15 +935,11 @@
         const viewModeSelect = document.getElementById('viewMode');
         const shelfRowView = document.getElementById('shelfRowView');
         const cubbyView = document.getElementById('cubbyView');
-        const searchView = document.getElementById('searchView'); // NEW
         const shelvesContainer = document.querySelector('.shelves-container');
         const cubbiesContainer = document.querySelector('.cubbies-container');
-        const searchGallery = document.getElementById('searchGallery'); // NEW
         const starfield = document.getElementById('starfield');
         const totalAlbumsElement = document.getElementById('total-albums');
         const totalShelvesElement = document.getElementById('total-shelves');
-        const searchInput = document.getElementById('searchInput'); // NEW
-        const searchResultsCount = document.getElementById('searchResultsCount'); // NEW
 
         // Create starfield
         function createStarfield() {
@@ -1122,7 +974,6 @@
             
             // Set up event listeners
             viewModeSelect.addEventListener('change', handleViewModeChange);
-            searchInput.addEventListener('input', handleSearch); // NEW
             
             // Album detail view event listeners
             document.getElementById('close-detail').addEventListener('click', closeAlbumDetail);
@@ -1142,91 +993,11 @@
             try {
                 await loadLibraryCsv();
             } catch (error) {
-                console.log("No library.csv found");
+                console.log("No library.csv found, using sample data");
                 // If no CSV found, show empty state
                 showEmptyState();
             }
         });
-
-        // NEW: Handle search input
-        function handleSearch() {
-            const searchTerm = searchInput.value.trim().toLowerCase();
-            
-            if (searchTerm === '') {
-                // If search is empty, show the default view (shelf row view)
-                viewModeSelect.value = 'shelf-row';
-                handleViewModeChange();
-                searchResultsCount.textContent = '';
-                return;
-            }
-            
-            // Filter albums based on search term
-            filteredData = libraryData.filter(album => {
-                const title = album.title ? album.title.toLowerCase() : '';
-                const artist = album.artist ? album.artist.toLowerCase() : '';
-                const genres = album.genres ? album.genres.join(' ').toLowerCase() : '';
-                
-                return title.includes(searchTerm) || 
-                       artist.includes(searchTerm) || 
-                       genres.includes(searchTerm);
-            });
-            
-            // Update view to search results
-            viewModeSelect.value = 'search';
-            handleViewModeChange();
-            
-            // Update results count
-            const resultText = filteredData.length === 1 ? 'result' : 'results';
-            searchResultsCount.textContent = `Found ${filteredData.length} ${resultText} for "${searchTerm}"`;
-            
-            // Render search results
-            renderSearchGallery();
-        }
-
-        // NEW: Render search gallery
-        function renderSearchGallery() {
-            searchGallery.innerHTML = '';
-            
-            if (filteredData.length === 0) {
-                searchGallery.innerHTML = `
-                    <div class="no-results">
-                        <i class="fas fa-search"></i>
-                        <p>No albums found matching your search</p>
-                    </div>
-                `;
-                return;
-            }
-            
-            // Create gallery grid
-            filteredData.forEach(album => {
-                const albumCard = document.createElement('div');
-                albumCard.className = 'album-card';
-                albumCard.setAttribute('data-id', album.title);
-                
-                albumCard.innerHTML = `
-                    <div class="album-cover" style="background-image: url(${album.albumcoverurl})"></div>
-                    <div class="album-info">
-                        <div class="album-title">${album.title}</div>
-                        <div class="album-artist">${album.artist}</div>
-                        <div class="album-meta">
-                            <span>${album.releaseYear}</span>
-                            <span>${album.genres && album.genres[0] ? album.genres[0] : ''}</span>
-                        </div>
-                    </div>
-                `;
-                
-                // Add click handler
-                albumCard.addEventListener('click', function() {
-                    const albumTitle = this.getAttribute('data-id');
-                    const album = libraryData.find(a => a.title === albumTitle);
-                    if (album) {
-                        showAlbumDetail(album);
-                    }
-                });
-                
-                searchGallery.appendChild(albumCard);
-            });
-        }
 
         // Parse CSV data
         function parseCSV(csvText) {
@@ -1294,18 +1065,14 @@
             // Hide all views
             shelfRowView.classList.remove('active');
             cubbyView.classList.remove('active');
-            searchView.classList.remove('active');
             
             // Show selected view
             if (selectedView === 'shelf-row') {
                 shelfRowView.classList.add('active');
                 renderShelfRowView();
-            } else if (selectedView === 'cubby') {
+            } else {
                 cubbyView.classList.add('active');
                 renderCubbyView();
-            } else if (selectedView === 'search') {
-                searchView.classList.add('active');
-                // Search gallery is already rendered by handleSearch()
             }
         }
 
@@ -1315,10 +1082,8 @@
             
             if (selectedView === 'shelf-row') {
                 renderShelfRowView();
-            } else if (selectedView === 'cubby') {
+            } else {
                 renderCubbyView();
-            } else if (selectedView === 'search') {
-                renderSearchGallery();
             }
         }
 
@@ -1567,3 +1332,5 @@
     </script>
 </body>
 </html>
+
+
