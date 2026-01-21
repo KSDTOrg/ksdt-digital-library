@@ -391,13 +391,19 @@
 }
 
 .album-info .album-artist {
-    color: var(--accent-primary); /* Changed back to purple */
-    font-size: 0.7rem; /* Slightly bigger than 0.65rem */
+    color: var(--accent-primary);
+    font-size: 0.7rem;
     margin-bottom: 5px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     line-height: 1.2;
+    font-weight: 600;
+    text-shadow: 
+        0.5px 0.5px 0 #ffffff,
+        -0.5px -0.5px 0 #ffffff,
+        0.5px -0.5px 0 #ffffff,
+        -0.5px 0.5px 0 #ffffff; /* White outline effect */
 }
 
 .album-meta {
