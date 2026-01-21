@@ -214,80 +214,7 @@
             letter-spacing: 1px;
         }
         
-        /* Data Management Section */
-        .data-controls {
-            background: rgba(22, 27, 42, 0.8);
-            padding: 25px;
-            margin-bottom: 25px;
-            border-radius: 16px;
-            border: 1px solid var(--border-color);
-            backdrop-filter: blur(5px);
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
-        }
-        
-        .data-controls h2 {
-            color: var(--accent-secondary);
-            margin-bottom: 20px;
-            font-size: 1.6rem;
-        }
-        
-        .file-upload {
-            display: flex;
-            align-items: center;
-            gap: 20px;
-            margin-bottom: 15px;
-        }
-        
-        .file-upload label {
-            color: var(--text-secondary);
-            font-size: 0.95rem;
-        }
-        
-        #data-file {
-            background: rgba(16, 20, 35, 0.8);
-            border: 1px solid var(--border-color);
-            border-radius: 8px;
-            padding: 10px 15px;
-            color: var(--text-primary);
-            flex-grow: 1;
-        }
-        
-        #load-sample, #load-csv {
-            background: linear-gradient(135deg, var(--accent-primary), var(--accent-nebula));
-            color: white;
-            border: none;
-            padding: 12px 20px;
-            border-radius: 10px;
-            cursor: pointer;
-            font-weight: 600;
-            transition: all 0.3s ease;
-            white-space: nowrap;
-        }
-        
-        #load-sample:hover, #load-csv:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 0 20px rgba(138, 111, 255, 0.4);
-        }
-        
-        #data-status {
-            margin-top: 15px;
-            padding: 12px 15px;
-            border-radius: 8px;
-            text-align: center;
-            font-weight: 500;
-        }
-        
-        .status-success {
-            background: rgba(46, 204, 113, 0.2);
-            color: #2ecc71;
-            border: 1px solid rgba(46, 204, 113, 0.3);
-        }
-        
-        .status-error {
-            background: rgba(231, 76, 60, 0.2);
-            color: #e74c3c;
-            border: 1px solid rgba(231, 76, 60, 0.3);
-        }
+        /* REMOVED: Data Management Section */
         
         /* View mode containers */
         .view-container {
@@ -309,7 +236,6 @@
             display: flex;
             flex-direction: column;
             gap: 25px;
-            /* REMOVED max-height and overflow-y - now uses main page scroll */
         }
         
         .shelf-row {
@@ -386,7 +312,6 @@
             overflow-x: auto;
             padding-bottom: 10px;
             flex-grow: 1;
-            /* REMOVED overflow-y */
         }
         
         .album-scroll {
@@ -400,8 +325,8 @@
         .album-card {
             background: linear-gradient(145deg, rgba(22, 27, 42, 0.9), rgba(16, 20, 35, 0.9));
             border-radius: 12px;
-            width: 180px; /* Square width */
-            height: 180px; /* Square height - same as width */
+            width: 180px;
+            height: 180px;
             flex-shrink: 0;
             overflow: hidden;
             transition: all 0.3s ease;
@@ -422,9 +347,9 @@
         
         .album-cover {
             width: 100%;
-            height: 100%; /* Fill the entire square */
-            object-fit: contain; /* CHANGED from 'cover' to 'contain' to show full image */
-            background-size: contain; /* CHANGED to show full image */
+            height: 100%;
+            object-fit: contain;
+            background-size: contain;
             background-position: center;
             background-repeat: no-repeat;
             position: absolute;
@@ -459,12 +384,14 @@
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
-            font-size: 0.95rem;
+            font-size: 0.8rem; /* REDUCED from 0.95rem */
+            font-style: italic; /* ADDED italic */
+            color: var(--accent-secondary); /* ADDED different color */
         }
         
         .album-artist {
             color: var(--text-secondary);
-            font-size: 0.85rem;
+            font-size: 0.75rem; /* REDUCED from 0.85rem */
             margin-bottom: 5px;
             white-space: nowrap;
             overflow: hidden;
@@ -478,14 +405,20 @@
             color: var(--accent-secondary);
         }
         
-        /* Cubby View - NO OVERLAP, square cubbies */
+        /* Cubby View - UPDATED for horizontal scrolling */
+        .cubbies-container-wrapper {
+            overflow-x: auto;
+            padding-bottom: 20px;
+        }
+        
         .cubbies-container {
             display: grid;
             grid-template-columns: repeat(6, 1fr);
             grid-template-rows: repeat(5, 1fr);
             gap: 15px;
             min-height: 70vh;
-            /* REMOVED overflow: hidden to prevent cutting off content */
+            width: max-content; /* FIX: Prevents resizing, allows horizontal scroll */
+            min-width: 100%;
             margin-bottom: 40px;
         }
         
@@ -499,10 +432,11 @@
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
             border: 1px solid rgba(138, 111, 255, 0.1);
             transition: all 0.3s ease;
-            /* REMOVED overflow: hidden to prevent cutting off content */
             backdrop-filter: blur(5px);
-            aspect-ratio: 1 / 1; /* Makes cubbies square */
-            min-height: 200px; /* Minimum height to prevent overlap */
+            aspect-ratio: 1 / 1;
+            min-height: 200px;
+            width: 100%;
+            min-width: 200px; /* FIX: Prevents shrinking */
         }
         
         .cubby:hover {
@@ -815,7 +749,7 @@
         @media (max-width: 1200px) {
             .cubbies-container {
                 grid-template-columns: repeat(3, 1fr);
-                grid-template-rows: repeat(10, auto); /* Changed to auto to prevent overlap */
+                grid-template-rows: repeat(10, auto);
                 gap: 20px;
             }
             
@@ -823,16 +757,12 @@
                 width: 160px;
                 height: 160px;
             }
-            
-            .file-upload {
-                flex-wrap: wrap;
-            }
         }
         
         @media (max-width: 900px) {
             .cubbies-container {
                 grid-template-columns: repeat(2, 1fr);
-                grid-template-rows: repeat(15, auto); /* Changed to auto to prevent overlap */
+                grid-template-rows: repeat(15, auto);
             }
             
             .album-detail-container {
@@ -872,7 +802,7 @@
             
             .cubbies-container {
                 grid-template-columns: repeat(2, 1fr);
-                grid-template-rows: repeat(15, auto); /* Changed to auto to prevent overlap */
+                grid-template-rows: repeat(15, auto);
             }
             
             .album-card {
@@ -888,7 +818,7 @@
         @media (max-width: 480px) {
             .cubbies-container {
                 grid-template-columns: 1fr;
-                grid-template-rows: repeat(30, auto); /* Changed to auto to prevent overlap */
+                grid-template-rows: repeat(30, auto);
             }
             
             .album-card {
@@ -939,20 +869,6 @@
             </div>
         </header>
         
-        <!-- Data Management Section -->
-        <section class="data-controls">
-            <h2>Data Management</h2>
-            
-            <div class="file-upload">
-                <label for="data-file">Upload Library Data (CSV or JSON):</label>
-                <input type="file" id="data-file" accept=".csv,.json">
-                <button id="load-sample">Load Sample Data</button>
-                <button id="load-csv">Load Sample CSV</button>
-            </div>
-            
-            <div id="data-status" class="status-message"></div>
-        </section>
-        
         <!-- Shelf Row View -->
         <div id="shelfRowView" class="view-container active">
             <div class="shelves-container">
@@ -960,10 +876,12 @@
             </div>
         </div>
         
-        <!-- Cubby View -->
+        <!-- Cubby View - UPDATED with wrapper for horizontal scroll -->
         <div id="cubbyView" class="view-container">
-            <div class="cubbies-container">
-                <!-- Cubbies will be generated by JavaScript -->
+            <div class="cubbies-container-wrapper">
+                <div class="cubbies-container">
+                    <!-- Cubbies will be generated by JavaScript -->
+                </div>
             </div>
         </div>
         
@@ -1010,164 +928,6 @@
         let libraryData = [];
         let filteredData = [];
 
-        // Sample albums data - REPLACE THIS WITH YOUR ACTUAL LIBRARY DATA
-        const sampleAlbums = [
-            { 
-                format: "Vinyl", 
-                title: "Cosmic Voyage", 
-                artist: "Space Echoes", 
-                releaseYear: 2021, 
-                genres: ["Ambient", "Electronic"], 
-                country: "USA", 
-                riyl: "Brian Eno, Tangerine Dream", 
-                location: "A1", 
-                albumcoverurl: "https://images.unsplash.com/photo-1511379938547-c1f69419868d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" 
-            },
-            { 
-                format: "Vinyl", 
-                title: "Stellar Drift", 
-                artist: "Nebula Theory", 
-                releaseYear: 2020, 
-                genres: ["Electronic", "Synthwave"], 
-                country: "UK", 
-                riyl: "Kraftwerk, Jean-Michel Jarre", 
-                location: "A1", 
-                albumcoverurl: "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" 
-            },
-            { 
-                format: "Vinyl", 
-                title: "Moonlight Sonata", 
-                artist: "Beethoven", 
-                releaseYear: 1801, 
-                genres: ["Classical"], 
-                country: "Germany", 
-                riyl: "Mozart, Bach", 
-                location: "A2", 
-                albumcoverurl: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" 
-            },
-            { 
-                format: "Vinyl", 
-                title: "Galactic Dreams", 
-                artist: "Orion's Belt", 
-                releaseYear: 2019, 
-                genres: ["Synthwave", "Ambient"], 
-                country: "Sweden", 
-                riyl: "The Midnight, Timecop1983", 
-                location: "A2", 
-                albumcoverurl: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" 
-            },
-            { 
-                format: "Vinyl", 
-                title: "Celestial Harmonies", 
-                artist: "Cosmic Strings", 
-                releaseYear: 2018, 
-                genres: ["New Age", "Ambient"], 
-                country: "USA", 
-                riyl: "Steven Halpern, Deuter", 
-                location: "B1", 
-                albumcoverurl: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" 
-            },
-            { 
-                format: "Vinyl", 
-                title: "Interstellar", 
-                artist: "Hans Zimmer", 
-                releaseYear: 2014, 
-                genres: ["Soundtrack", "Orchestral"], 
-                country: "Germany", 
-                riyl: "John Williams, James Horner", 
-                location: "B1", 
-                albumcoverurl: "https://images.unsplash.com/photo-1511379938547-c1f69419868d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" 
-            },
-            { 
-                format: "Vinyl", 
-                title: "Dark Side of the Moon", 
-                artist: "Pink Floyd", 
-                releaseYear: 1973, 
-                genres: ["Progressive Rock"], 
-                country: "UK", 
-                riyl: "Roger Waters, David Gilmour", 
-                location: "C1", 
-                albumcoverurl: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" 
-            },
-            { 
-                format: "Vinyl", 
-                title: "Space Oddity", 
-                artist: "David Bowie", 
-                releaseYear: 1969, 
-                genres: ["Rock", "Art Rock"], 
-                country: "UK", 
-                riyl: "The Beatles, Lou Reed", 
-                location: "C2", 
-                albumcoverurl: "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" 
-            },
-            { 
-                format: "Vinyl", 
-                title: "Rocket Man", 
-                artist: "Elton John", 
-                releaseYear: 1972, 
-                genres: ["Pop", "Rock"], 
-                country: "UK", 
-                riyl: "Billy Joel, Bernie Taupin", 
-                location: "D1", 
-                albumcoverurl: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" 
-            },
-            { 
-                format: "Vinyl", 
-                title: "Across the Universe", 
-                artist: "The Beatles", 
-                releaseYear: 1969, 
-                genres: ["Rock", "Psychedelic"], 
-                country: "UK", 
-                riyl: "John Lennon, George Harrison", 
-                location: "D2", 
-                albumcoverurl: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" 
-            },
-            { 
-                format: "Vinyl", 
-                title: "Supernova", 
-                artist: "Ray LaMontagne", 
-                releaseYear: 2010, 
-                genres: ["Folk", "Singer-Songwriter"], 
-                country: "USA", 
-                riyl: "Damien Rice, Iron & Wine", 
-                location: "E1", 
-                albumcoverurl: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" 
-            },
-            { 
-                format: "Vinyl", 
-                title: "Black Hole Sun", 
-                artist: "Soundgarden", 
-                releaseYear: 1994, 
-                genres: ["Grunge", "Alternative Rock"], 
-                country: "USA", 
-                riyl: "Pearl Jam, Alice in Chains", 
-                location: "E2", 
-                albumcoverurl: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" 
-            },
-            { 
-                format: "Vinyl", 
-                title: "Starlight", 
-                artist: "Muse", 
-                releaseYear: 2006, 
-                genres: ["Alternative Rock", "Progressive Rock"], 
-                country: "UK", 
-                riyl: "Radiohead, Queen", 
-                location: "F1", 
-                albumcoverurl: "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" 
-            },
-            { 
-                format: "Vinyl", 
-                title: "Moon Safari", 
-                artist: "Air", 
-                releaseYear: 1998, 
-                genres: ["Electronic", "Downtempo"], 
-                country: "France", 
-                riyl: "Zero 7, Massive Attack", 
-                location: "F2", 
-                albumcoverurl: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" 
-            }
-        ];
-
         // DOM elements
         const viewModeSelect = document.getElementById('viewMode');
         const shelfRowView = document.getElementById('shelfRowView');
@@ -1175,10 +935,6 @@
         const shelvesContainer = document.querySelector('.shelves-container');
         const cubbiesContainer = document.querySelector('.cubbies-container');
         const starfield = document.getElementById('starfield');
-        const dataFileInput = document.getElementById('data-file');
-        const loadSampleBtn = document.getElementById('load-sample');
-        const loadCsvBtn = document.getElementById('load-csv');
-        const dataStatus = document.getElementById('data-status');
         const totalAlbumsElement = document.getElementById('total-albums');
         const totalShelvesElement = document.getElementById('total-shelves');
 
@@ -1214,9 +970,6 @@
             createStarfield();
             
             // Set up event listeners
-            dataFileInput.addEventListener('change', handleFileUpload);
-            loadSampleBtn.addEventListener('click', loadSampleData);
-            loadCsvBtn.addEventListener('click', loadSampleCsv);
             viewModeSelect.addEventListener('change', handleViewModeChange);
             
             // Album detail view event listeners
@@ -1233,42 +986,15 @@
                 }
             });
             
+            // Load library data automatically
             try {
                 await loadLibraryCsv();
             } catch (error) {
                 console.log("No library.csv found, using sample data");
-                loadSampleData();
+                // If no CSV found, show empty state
+                showEmptyState();
             }
         });
-
-        // Handle file upload
-        function handleFileUpload(event) {
-            const file = event.target.files[0];
-            if (!file) return;
-            
-            const reader = new FileReader();
-            reader.onload = function(e) {
-                try {
-                    const content = e.target.result;
-                    
-                    if (file.name.endsWith('.csv')) {
-                        libraryData = parseCSV(content);
-                    } else if (file.name.endsWith('.json')) {
-                        libraryData = JSON.parse(content);
-                    } else {
-                        throw new Error('Unsupported file format');
-                    }
-                    
-                    showStatus('Data loaded successfully!', 'success');
-                    updateStats();
-                    renderCurrentView();
-                } catch (error) {
-                    showStatus('Error loading file: ' + error.message, 'error');
-                }
-            };
-            
-            reader.readAsText(file);
-        }
 
         // Parse CSV data
         function parseCSV(csvText) {
@@ -1327,29 +1053,6 @@
                 
                 return record;
             }).filter(record => record !== null && record.title);
-        }
-
-        // Load sample data
-        function loadSampleData() {
-            libraryData = sampleAlbums;
-            showStatus('Sample data loaded!', 'success');
-            updateStats();
-            renderCurrentView();
-        }
-
-        // Load sample CSV data
-        function loadSampleCsv() {
-            const sampleCsv = `format,title,artist,releaseYear,genres,country,riyl,location,albumcoverurl
-Vinyl,Kind of Blue,Miles Davis,1959,Jazz,USA,John Coltrane; Bill Evans,A1,https://images.unsplash.com/photo-1511379938547-c1f69419868d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80
-Vinyl,Abbey Road,The Beatles,1969,Rock; Pop,UK,The Rolling Stones; The Who,B1,https://images.unsplash.com/photo-1518609878373-06d740f60d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80
-Vinyl,The Dark Side of the Moon,Pink Floyd,1973,Progressive Rock,UK,Roger Waters; David Gilmour,C1,https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80
-Vinyl,Thriller,Michael Jackson,1982,Pop; Funk; Disco,USA,Prince; Quincy Jones,D1,https://images.unsplash.com/photo-1514525253161-7a46d19cd819?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80
-Vinyl,Back in Black,AC/DC,1980,Hard Rock,Australia,Led Zeppelin; Guns N' Roses,E1,https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80`;
-            
-            libraryData = parseCSV(sampleCsv);
-            showStatus('Sample CSV data loaded!', 'success');
-            updateStats();
-            renderCurrentView();
         }
 
         // Handle view mode change
@@ -1593,22 +1296,8 @@ Vinyl,Back in Black,AC/DC,1980,Hard Rock,Australia,Led Zeppelin; Guns N' Roses,E
             totalShelvesElement.textContent = uniqueShelves.size;
         }
 
-        // Show status message
-        function showStatus(message, type) {
-            dataStatus.textContent = message;
-            dataStatus.className = `status-message status-${type}`;
-            
-            // Clear status after 3 seconds
-            setTimeout(() => {
-                dataStatus.textContent = '';
-                dataStatus.className = 'status-message';
-            }, 3000);
-        }
-
-        // NEW FUNCTION: Auto-load library.csv on page load
+        // Auto-load library.csv on page load
         async function loadLibraryCsv() {
-            showStatus('Loading library data...', 'success');
-            
             try {
                 // Fetch the CSV file from the same directory
                 const response = await fetch('library.csv');
@@ -1620,14 +1309,22 @@ Vinyl,Back in Black,AC/DC,1980,Hard Rock,Australia,Led Zeppelin; Guns N' Roses,E
                 const csvText = await response.text();
                 libraryData = parseCSV(csvText);
                 
-                showStatus(`Loaded ${libraryData.length} albums from library.csv`, 'success');
+                console.log(`Loaded ${libraryData.length} albums from library.csv`);
                 updateStats();
                 renderCurrentView();
                 
             } catch (error) {
-                showStatus('Could not load library.csv - using sample data instead', 'error');
+                console.log('Could not load library.csv');
+                showEmptyState();
                 throw error;
             }
+        }
+
+        // Show empty state
+        function showEmptyState() {
+            libraryData = [];
+            updateStats();
+            renderCurrentView();
         }
     </script>
 </body>
