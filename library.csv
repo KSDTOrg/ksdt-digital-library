@@ -1,5 +1,5 @@
 Format,Title,Artist,Release Year,Genre(s),Country,RIYL,Location (Shelf),Album Cover URL,Fill In?
-Record,No Secrets,Carly Simon,1972,Folk(?),USA,"Joni Mitchell, Carole King, Bonnie Rait",I4,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxxO4QMdoxrSehGgVqerTUq32I9KaM_3Q2Tw&s,
+Record,No Secrets,Carly Simon,1972,Folk(?),USA,"Joni Mitchell, Carole King, Bonnie Rait",I5,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxxO4QMdoxrSehGgVqerTUq32I9KaM_3Q2Tw&s,
 Record,La Folie,The Stranglers,1981,Post Punk,UK,"The Cure, Depeche Mode, New Order, ",I4,https://upload.wikimedia.org/wikipedia/en/thumb/e/e6/Stranglers_-_La_Folie_album_cover.jpg/220px-Stranglers_-_La_Folie_album_cover.jpg,
 Record,Tossing Seeds,Superchunk,1989-1991,Punk,USA,"Stiff Little Fingers, The Replacements, The New Pornographers ",I4,https://f4.bcbits.com/img/a3440883926_10.jpg,
 Record,Samiam,Samiam,1990,Punk,USA,"Decendents, ",I4,https://f4.bcbits.com/img/a1817022621_10.jpg,
@@ -43,7 +43,7 @@ Record,Children of the Revolution,Baby Ford,1989,,,,B2,https://i.discogs.com/pGU
 Record,She Was Only A Grocer's Daughter,Blow Monkeys,1987,"new wave, pop rock",,,B2,https://i.scdn.co/image/ab67616d0000b27340d6055cfbd57499391e1c9a,
 Record,Day and Night,Blaam and the angel,1986,Post punk/rock,England,,I4,https://i.discogs.com/pHZcxi68sfOuV4ZIazs2FNjdLNb4NvnZBkfdABwOS8o/rs:fit/g:sm/q:90/h:600/w:593/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcyNTg2/MC0xMTc2NjIxODQ5/LmpwZWc.jpeg,
 Record,SWA,XCIII,1984,Punk,USA,,I4,"https://m.media-amazon.com/images/I/418k7maHozL._UF1000,1000_QL80_.jpg",
-Record,Soul,Trigger,1988,Post-Hardcore,USA,,I4,https://f4.bcbits.com/img/a0705465616_16.jpg,
+Record,Soul side,Trigger,1988,Post-Hardcore,USA,,I4,https://f4.bcbits.com/img/a0705465616_16.jpg,
 Record,UFO,Obsession,1978,Heavy Metal,UKA,,I4,https://upload.wikimedia.org/wikipedia/en/0/07/UFOObsession.jpg,
 Record,Western Eyes,Western Eyes,1984,"New Wave, Punk ",USA,,I4,https://f4.bcbits.com/img/a3286199669_2.jpg,
 Record,Where's the Money,Dan Hicks and His Hot Licks,1971,Folk Rock,USA,,I4,"https://m.media-amazon.com/images/I/4139fGt3JbL._UF1000,1000_QL80_.jpg",
@@ -166,8 +166,8 @@ Record,Yes No Maybe,Two of 4,1990,"Electronic, Rock",USA,,F4,https://www.discogs
 Record,Leave It,Yes,1984,Synth-Pop,USA,,F4,https://www.discogs.com/master/35799-Yes-Leave-It/image/SW1hZ2U6MzI2NDM4ODM=,
 Record,You Gotta Say Yes to Another Excess,Yello,1983,Electronic,USA,,F4,https://www.discogs.com/master/35031-Yello-You-Gotta-Say-Yes-To-Another-Excess/image/SW1hZ2U6OTQ3NDQ5,
 Record,Keys to Imagination,Yanni,1986,Electronic,USA,,F4,https://www.discogs.com/release/2483878-Yanni-Keys-To-Imagination,
-Record,,,,,,,,,
-Record,,,,,,,,,
+Record,Dazzel Ships,OMD,1983,Electronic,USA,,F4,,
+Record,Greater Reward,Severed Heads,1988,"House, Dub",Canada,,F4,https://www.discogs.com/master/95201-Severed-Heads-Greater-Reward/image/SW1hZ2U6OTM0NTI0MQ==,
 Record,,,,,,,,,
 Record,,,,,,,,,
 Record,,,,,,,,,
@@ -416,8 +416,8 @@ Record,No Ballads,Rockets,2009,Rock,US,"Kraftwerk, Giorgio Moroder, Jean-Michel 
 Record,Robbie Robertson,Robbie Robertson,1987,Pop Rock,UK & Europe,"The Band, Bob Dylan, Neil Young, Van Morrison, Leonard Cohen",A3,https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/85/01/58/85015836-f1e3-288d-2b6f-5ab2151bc3af/00720642416020.rgb.jpg/600x600bb.jpg,Been Filled
 Record,North by Northwest,Tom Robinson,1982,New Wave,UK,"The Clash, The Jam, The Undertones, The Ruts, The Stranglers",A3,https://lastfm.freetls.fastly.net/i/u/300x300/69b2e893f62eff7ecccb19dfc51dcd24.jpg,Been Filled
 Record,Hope and Glory,Tom Robinson,1984,Pop Rock,UK,"The Clash, The Jam, The Undertones, The Ruts, The Stranglers",A3,https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/7b/ee/d5/7beed51f-89a0-2808-20a7-69efb76745ac/cover.jpg/600x600bb.jpg,Been Filled
-Record,Drastic Measures,Kansas,1983,Classic Rock,USA,,E1,,
-,,,,,,,,,
+Record,Drastic Measures,Kansas,1983,Classic Rock,USA,"Foreigner, Rush, Journey",E1,https://www.discogs.com/master/217535-Kansas-Drastic-Measures/image/SW1hZ2U6MzAwNTcwNA==,Been Filled
+Record,Sugar Rush,Downers,2019,Alt Rock,USA,"Sun Kil Moon, Red House Painters",I3,https://downersca.bandcamp.com/album/sugar-rush,Been Filled
 ,,,,,,,,,
 ,,,,,,,,,
 ,,,,,,,,,
@@ -516,118 +516,118 @@ Record,Belly Up,Dr. Hook,2008,"Classic Rock, Stoner Rock",UK,,J3,https://is1-ssl
 Record,Any Road Up,Steve Gibbons Band,1976,Southern Rock,US,,J3,https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6c/cb/40/6ccb406a-aad6-0311-957a-3d06f261a7ba/190296768477.jpg/600x600bb.jpg,Been Filled
 Record,Long Stem Rant,Giant Sand,1989,"Alternative Rock, Country Rock",UK,,J3,https://lastfm.freetls.fastly.net/i/u/300x300/12e85a27c5b4c50198f38eb2fa307561.jpg,Been Filled
 Record,Free Live!,Free,1971,Classic Rock,US,,J3,https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/ed/8f/ec/ed8fecdf-f595-6c8c-4824-f1728a1fd6d6/00731458622826.rgb.jpg/600x600bb.jpg,Been Filled
-Record,Vive le Rock,Adam Ant,1985,"New Wave, Pop Rock",US,,J3,https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/64/0b/da/640bda3c-ed61-ca3f-5e38-b491c21841e0/5099751963820.jpg/600x600bb.jpg,Been Filled
-Record,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
+Record,Vive le Rock,Adam Ant,1985,"New Wave, Pop Rock",US,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/64/0b/da/640bda3c-ed61-ca3f-5e38-b491c21841e0/5099751963820.jpg/600x600bb.jpg,Been Filled
+Record,What jail Is Like,Afghan Whigs,1994,"Alternative Rock, Soul",UK,,J4,https://lastfm.freetls.fastly.net/i/u/300x300/fc48a91eda98aa41161d34c6f02e6ca8.jpg,Been Filled
+Record,Waking up in the Sun,Adult Net,1986,Indie Rock,UK,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7f/63/2c/7f632c08-3960-de3d-d34c-ee8140038b69/13UADIM60773.rgb.jpg/600x600bb.jpg,Been Filled
+Record,Take Me,Adult Net,1989,Alternative Rock,UK,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/60/f8/a6/60f8a6bc-e875-238d-f2f8-f34a6034e6d2/14UMGIM07615.rgb.jpg/600x600bb.jpg,Been Filled
+Record,...Adolt Cartoon,Lamposts,2013,Punk,US,,J4,https://i.discogs.com/AuvmY83jC3EB6AH9ECHTUV9hFbGYJwwDPxZJAGQTjLw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU2MTg3/OTEtMTM5ODEzMjE3/NC0zMTMwLmpwZWc.jpeg,Been Filled
+Record,Prince Charming,Adam Ant,1981,"New Wave, Pop Rock",UK,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/58/76/fd/5876fda3-ccd5-577d-c539-9dbfff9d12f7/PARK1425.jpg/600x600bb.jpg,Been Filled
+Record,Kings of the Wild Frontier,Adam Ant,1980,"New Wave, Post-Punk",UK,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f8/65/00/f86500a1-1818-4d8e-519e-890409c31f24/886445292176.jpg/600x600bb.jpg,Been Filled
+Record,Donut Comes Alive,Alice Donut,1988,Alternative Rock,US,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music/84/a4/59/mzi.bpxymrmc.jpg/600x600bb.jpg,Been Filled
+Record,Sixty-Eight Guns,The Alarm,1983,Alternative Rock,UK,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8b/05/a2/8b05a200-f90e-4409-8cdc-55767b2c62f1/196922664106_Cover.jpg/600x600bb.jpg,Been Filled
+Record,"Music from the Motion Picture ""Alamo Bay""",Ry Cooder,1985,"Blues Rock, Country Rock, Soundtrack",US,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music/26/59/9f/mzi.yktvoxzb.jpg/600x600bb.jpg,Been Filled
+Record,Open Seasons,Agitpop,1988,"Alternative Rock, Power Pop",US,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/58/33/72/58337236-6014-9f33-8b27-80f3fdbc531b/100238.jpg/600x600bb.jpg,Been Filled
+Record,Outside Looking In,BoDeans,1987,Pop Rock,US,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music/a0/e4/0f/mzi.dycovuqd.jpg/600x600bb.jpg,Been Filled
+Record,Home,BoDeans,1989,Pop Rock,US,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music/9b/ec/66/mzi.nazqgprl.jpg/600x600bb.jpg,Been Filled
+Record,Tale of 2 Legs,Bob's Your Uncle,1990,"New Wave, Indie Rock",US,,J4,https://lastfm.freetls.fastly.net/i/u/300x300/874802925c79e880f80957747d46d145.jpg,Been Filled
+Record,Reflecting,Chad Michael Trio,1964,,,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/a3/6a/7a/a36a7a5a-7a7f-8399-e928-3ecc8e1ed496/19UMGIM47090.rgb.jpg/600x600bb.jpg,Been Filled
+Record,Carpenters,Passage,1977,"Pop Rock, Vocal, Easy Listening",UK,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/53/0e/33/530e3392-a850-2397-6426-5fcd2f4644ce/00602567822349.rgb.jpg/600x600bb.jpg,Been Filled
+Record,Marc,Martc Bolan,,,,,J4,,Been Filled
+Record,Slip Side,BoDeans,,,,,J4,,Been Filled
+Record,Heard it All,The Bodines,1986,"Indie Rock, Indie Pop",UK,,J4,https://lastfm.freetls.fastly.net/i/u/300x300/e97f5143aa854849b959ee356a8080b7.jpg,Been Filled
+Record,Meaning Of,Mark O'Conner,2005,,,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/1a/6c/0f/1a6c0f8b-0156-3428-93af-fae481fac7d9/dj.jmgcmbga.jpg/600x600bb.jpg,Been Filled
+Record,Cloud Factory,O Positive,1987,Alternative Rock,US,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/4e/6b/6b/4e6b6bb3-ac80-f4df-dab2-e3f5bc0c37e5/194171511639.jpg/600x600bb.jpg,Been Filled
+Record,Gary Numan,Radio Heart,1987,Synth-pop,UK,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music/ab/fe/17/mzi.jylxmmnt.jpg/600x600bb.jpg,Been Filled
+Record,Feast of the Sunfish,Agitpop,1985,"Alternative Rock, Art Rock, Experimental, No Wave",US,,J4,https://lastfm.freetls.fastly.net/i/u/300x300/486d7aa486774fca88d135c454521240.jpg,Been Filled
+Record,Back at the Planet of Jars,Agitpop,,,,,J4,,Been Filled
+Record,Age of Chance,One Thousand Years of Trouble,1987,"Industrial, Synth-pop, Breakbeat",UK,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/77/da/1d/77da1d24-370e-7a11-4719-31bd69fe7b95/05099968525958.jpg/600x600bb.jpg,Been Filled
+Record,Afterbirth,Medical Waste,,"Rock, Reggae",US,,J4,https://i.discogs.com/4J8Qs0PDiymY9RdNUza9sIWbB1S8f3rXKSB1ziR85Ho/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1NzMx/MDAtMTQ3MzMwNTA5/My01NjE4LmpwZWc.jpeg,Been Filled
+Record,Ric Ocasek,This Side of Paradise,1986,"New Wave, Pop Rock, Synth-pop",US,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b4/72/e3/b472e397-2513-faa2-afcf-539f01a492d0/00720642409824.rgb.jpg/600x600bb.jpg,Been Filled
+Record,Bulkhead,Gas Giants,1994,Alternative Rock,US,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b8/a6/42/b8a64240-ff74-dc95-7209-986f54d74f55/0738641007422.jpg/600x600bb.jpg,Been Filled
+Record,M Faithful,A Child's Adventure,2006,"Disco, Indie Rock, RnB/Swing, Hip Hop, House, Eurodance",UK,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/a8/f3/9a/a8f39a03-5026-bbc1-2e14-b9916d15c239/06UMGIM04198.rgb.jpg/600x600bb.jpg,Been Filled
+Record,Big Drill Car,Batch,1991,"Power Pop, Punk",US,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/17/79/5c/17795c7d-c450-187f-46cf-c1dcf6cb7e1c/mzi.dlwfsdct.tif/600x600bb.jpg,Been Filled
+Record,Big Dipper,All Going Out Together,1987,Alternative Rock,US,,J4,https://i.discogs.com/jOr9IkKMcVcXfihjm_Dgh6DVrwHAaAbnmJSChtdYtX8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMTQx/MDgtMTI3MzA5MTkx/MC5qcGVn.jpeg,Been Filled
+Record,Big Dipper,Slam,1990,"Alternative Rock, Indie Rock",US,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music/72/b8/aa/mzi.fovuqfge.jpg/600x600bb.jpg,Been Filled
+Record,Big Country,Steeltown,1984,"Alternative Rock, Pop Rock, New Wave",UK,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/94/99/f8/9499f82c-d564-ac50-9cd3-d67ffd50352c/00600753506608.rgb.jpg/600x600bb.jpg,Been Filled
+Record,The BIg Ball,Big Ball,2008,"Folk Rock, Acoustic, Alternative Rock",Europe,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4b/fe/9b/4bfe9bdf-c4af-2875-36cd-47f7aa91e079/5059460102996.jpg/600x600bb.jpg,Been Filled
+Record,Big Audio Dynamite,E=Mc^2,1985,"Leftfield, Electro, Synth-pop",US,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f8/b9/54/f8b9548b-6286-fada-7f88-d23c28d3f5b2/PARK2155.jpg/600x600bb.jpg,Been Filled
+Record,Big Audio Dynamite,No. 10 Upping Street,1986,,,,J4,https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/38/8b/65/388b653c-b889-9a02-e477-eb691227fd68/dj.igwudeyd.jpg/600x600bb.jpg,Been Filled
+Record,Big Audio Dynamite,Megatop Phoenix,1989,"Leftfield, Breaks",UK,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music/9e/6e/f2/mzi.kfbregyn.jpg/600x600bb.jpg,Been Filled
+Record,Big Audio Dynamite,This Is...,1985,"Leftfield, Electro, Synth-pop",US,,J4,https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/2a/46/6f/2a466faf-f01a-49ae-51ba-87b9d279ca5f/dj.gsfpkhkw.jpg/600x600bb.jpg,Been Filled
+Record,John Palumbo,Innocent Bystander,1978,Avantgarde,US,,J4,https://i.discogs.com/pwNdupx8HMOMnVv3h4L4C2UVUynhsb6lLBnItwy10Fw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2MjI5/NTgtMTM3NjI0NDc0/NC00MzUwLmpwZWc.jpeg,Been Filled
+Record,Catscratch Fever,Ted Nugent,2001,,,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/4a/7a/50/4a7a50a3-8788-4988-2499-95a49c8af773/889466475467.jpg/600x600bb.jpg,Been Filled
+Record,Pure Prairie League,Firin' Up,1980,Country Rock,US,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/2b/be/9a/2bbe9ab0-c0ef-ee98-1ecd-a9fdcfa75bfc/00731451468629.rgb.jpg/600x600bb.jpg,Been Filled
+Record,Pure Prairie League,Can't Hold Back,1979,"Country Rock, Southern Rock",US,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/17/97/7e/17977ea9-790c-5286-d6c0-c06fe4d89964/886445557657.jpg/600x600bb.jpg,Been Filled
+Record,Pure Prairie League,Pure Prairie League,1972,Country Rock,US,,J4,https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/ed/6b/d7/ed6bd764-4b34-daca-a653-c4ae6ca3dc07/dj.emogsjgy.jpg/600x600bb.jpg,Been Filled
+Record,Psychotic Tumbuckles,Pharoahs of the Far Out,,,,,J4,,Been Filled
+Record,Prong,Force Fed,1988,"Hardcore, Thrash",Europe,,J4,https://i.discogs.com/7v_7qODZW2FWw2Bl230foplJ-8eZLGbapXoDNTCPSc4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2ODg1/NS0xMzkxMDQ1Nzk1/LTIxMzMuanBlZw.jpeg,Been Filled
+Record,Procol Harum,Something Magic,1977,"Prog Rock, Classic Rock",Germany,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/de/24/a1/de24a109-83ce-bb25-357a-6ee83026a08e/190295217600.jpg/600x600bb.jpg,Been Filled
+Record,Procol Harum,A Salty Dog,1983,"Psychedelic Rock, Prog Rock",German Democratic Republic (GDR),,J4,https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/8a/3b/35/8a3b3515-ef16-e481-2988-1c0106d6dd59/06UMGIM00643.rgb.jpg/600x600bb.jpg,Been Filled
+Record,The Orson Family,"Bugles, Guitars, Aphetamines",,,,,J4,,Been Filled
+Record,Orange Juice,Texas Fever,1984,"Indie Rock, Post-Punk",UK,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/ab/17/89/ab1789d1-d735-093d-84f0-06177bab0d08/5054526137509_1.jpg/600x600bb.jpg,Been Filled
+Record,One Pound Ninety-Nine (A Music Sampler of the State of Things),Various Artists,,,,,J4,https://lastfm.freetls.fastly.net/i/u/300x300/ab2bdc7e5f6048f297c9dc43f9806c7f.jpg,Been Filled
+Record,Surfin'  Hits,Various Artists,2013,"Beat, Garage Rock, Pop Rock, Rock & Roll, Surf",Australia,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/81/07/44/810744c9-d87c-a92f-830d-77073b601904/19UMGIM38986.rgb.jpg/600x600bb.jpg,Been Filled
+Record,Omaha Sheriff,Come Hell or Waters High,1977,Rock,UK,,J4,https://i.discogs.com/PnfX2THD5zzQJ2h9eVWkkJEVMPQ-vIsy288nkv_5L4Y/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzMDgw/MTktMTYwNzYxMDc2/OS02NDcyLmpwZWc.jpeg,Been Filled
+Record,Will Oldham,Joya,1997,"Country Rock, Lo-Fi, Indie Rock",US,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/c5/22/12/c52212ac-d728-6842-7f37-f4d02240b939/781484072621.png/600x600bb.jpg,Been Filled
+Record,Adam Ant,Dirk Wears White Sox,1979,"New Wave, Post-Punk",UK,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/44/a1/fe/44a1fe5b-bd1a-42ef-9024-e090a38ba948/5099751708124.jpg/600x600bb.jpg,Been Filled
+Record,A.C Temple,Blowtorch,1988,"Alternative Rock, Noise, Experimental",Netherlands,,J4,https://i.discogs.com/NNRF78sgcx1R-WHTXX3Rof4IQ3M1GwmwPAlckr94L4M/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY4MDE3/Ni0xMjIwNjQ1Nzg2/LmpwZWc.jpeg,Been Filled
+Record,10 Years After,Undead,1969,Blues Rock,UK,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/ec/19/20/ec1920fe-4ebc-e371-d00b-88ab00f877aa/00042288289920.rgb.jpg/600x600bb.jpg,Been Filled
+Record,A.C Marias,Time Was,1988,"Art Rock, Ethereal",UK,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music/bf/86/ba/mzi.rpgkclds.jpg/600x600bb.jpg,Been Filled
+Record,David Ackles,Subway to the Country,1969,"Rock, Folk, World, & Country",US,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music18/v4/5d/f3/0e/5df30e94-3614-46b3-059f-488b96e16b69/mzm.kuydcjoz.jpg/600x600bb.jpg,Been Filled
+Record,BoDeans,Love & Hope & Sex & Dreams,1986,Pop Rock,US,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music/db/94/b7/mzi.nbtrrqqg.jpg/600x600bb.jpg,Been Filled
+Record,Toucan Do It,Amazing Rhythm Aces,1977,Country Rock,US,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/1b/01/3d/1b013db5-8f40-09dd-e6d0-20593c106b18/886444778961.jpg/600x600bb.jpg,Been Filled
+Record,Stacked Deck,Amazing Rhythm Aces,1975,Country Rock,US,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/10/13/e1/1013e1cb-89e0-fce3-0081-c70227fcb310/886444364096.jpg/600x600bb.jpg,Been Filled
+Record,Largeness With W(h)oles,Always August,,,,,J4,,Been Filled
+Record,Black Pyramid,Always August,1986,"Alternative Rock, Psychedelic Rock, Experimental, Jazz-Rock",US,,J4,https://lastfm.freetls.fastly.net/i/u/300x300/7bfc282415564a678d3d621462ec3a61.jpg,Been Filled
+Record,Geography,Always August,1988,Jazz-Rock,US,,J4,https://lastfm.freetls.fastly.net/i/u/300x300/0cde791948a496d90593a5b37bb75afa.jpg,Been Filled
+Record,Nobody Can Wait Forever,Alquin,1975,Prog Rock,Netherlands,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a0/dc/34/a0dc343a-7f50-aba2-183b-42572a1ef977/196873118840.jpg/600x600bb.jpg,Been Filled
+Record,Pinky Blue,Altered Images,1982,"New Wave, Synth-pop",UK,,J4,https://is1-ssl.mzstatic.com/image/thumb/Features/05/cf/f5/dj.nanfjuja.jpg/600x600bb.jpg,Been Filled
+Record,Happy Birthday,Altered Images,1981,"Alternative Rock, Punk, Post-Punk, Pop Punk",UK,,J4,https://is1-ssl.mzstatic.com/image/thumb/Features/eb/d6/96/dj.qhyhdwtb.jpg/600x600bb.jpg,Been Filled
+Record,Sneakin' Sally Through the Alley,Robert Palmer,1974,"Rhythm & Blues, Pop Rock, Funk",UK,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/55/95/b2/5595b29f-9c29-16ae-975a-e5779e18cea1/00042284260725.rgb.jpg/600x600bb.jpg,Been Filled
+Record,Secrets,Robert Palmer,1979,Pop Rock,Canada,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/55/d3/d1/55d3d12b-3e6b-eeff-820b-939f2be5a43e/06UMGIM03080.rgb.jpg/600x600bb.jpg,Been Filled
+Record,Some People Can Do What They Like,Robert Palmer,1976,"Pop Rock, Soul, Funk, Reggae-Pop",US,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/7d/6d/8f/7d6d8fc7-6e54-9665-c24c-022d9e214595/00042284278621.rgb.jpg/600x600bb.jpg,Been Filled
+Record,Clues,Robert Palmer,1980,"New Wave, Pop Rock, Synth-pop",Germany,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/8d/b8/8e/8db88ed8-1404-e869-43c8-25f4d080e015/22UM1IM04950.rgb.jpg/600x600bb.jpg,Been Filled
+Record,Maybe It's Live,Robert Palmer,1982,"Pop Rock, Funk",US,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/bb/e4/ed/bbe4ede9-7a44-94dd-9aab-d59f1cd03280/22UM1IM04959.rgb.jpg/600x600bb.jpg,Been Filled
+Record,There is No-One What Will Take Care of You,Palace Brothers,1993,"Folk Rock, Country Rock, Lo-Fi, Indie Rock",US,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/92/bb/7c/92bb7c54-16c8-cd22-fab2-fec4212ee56e/036172903429.png/600x600bb.jpg,Been Filled
+Record,Trait,Pailhead,1988,"Hardcore, Industrial",US,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d0/01/4d/d0014daa-9b33-acda-2d20-326a95001ff8/889466267260.jpg/600x600bb.jpg,Been Filled
+Record,Malice in Wonderland,Paice Ashton Lord,1977,"Blues Rock, Rhythm & Blues, Prog Rock",UK,,J4,https://lastfm.freetls.fastly.net/i/u/300x300/83e41ad6233d37b6252f9096b8026ea2.jpg,Been Filled
+Record,Future Street,Pages,1979,"AOR, Fusion, Soft Rock",US,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/06/db/3e/06db3eac-2687-0da5-3639-3da32f53b77b/mzi.ingtwzak.jpg/600x600bb.jpg,Been Filled
+Record,The Ozark Mountain Daredevils,The Ozark Mountain Daredevils,1973,"Country Rock, Southern Rock",US,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/5e/db/62/5edb62ac-8cad-c579-cade-ca5a34c689c2/00075021311022.rgb.jpg/600x600bb.jpg,Been Filled
+Record,Playin' To Win,Outlaws,1978,"Country Rock, Southern Rock",US,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/a5/d6/2d/a5d62d25-dd7e-1731-600a-47099c9f8e60/886446226996.jpg/600x600bb.jpg,Been Filled
+Record,Don't Look Down,The Ozark Mountain Daredevils,1977,"Country Rock, Southern Rock",US,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/d4/d6/eb/d4d6eb81-816a-a02e-533d-7d6576428f8c/00602527511603.rgb.jpg/600x600bb.jpg,Been Filled
+Record,Alvin Crow and the Pleasant Valley Boys,Alvin Crow and the Pleasant Valley Boys,1976,"Country, Country Rock",US,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9c/3e/8a/9c3e8a93-a87d-5eaa-7ceb-6c960a602946/825479933020.jpg/600x600bb.jpg,Been Filled
+Record,Pot Luck,Spooner Oldham,2015,Funk / Soul,US,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3f/d4/20/3fd4200d-be67-30b4-ee66-73ccdd1cbf96/194.jpg/600x600bb.jpg,Been Filled
+Record,Tubular Bells,Mike Oldfeild,2009,,,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e5/26/e9/e526e9ee-23a0-c828-38c3-4da56978ba16/09UMGIM14647.rgb.jpg/600x600bb.jpg,Been Filled
+Record,American Roulette,Danny O'Keefe,1977,"Folk Rock, Country, Blues Rock, Bluegrass, Classic Rock",US,,J4,https://is1-ssl.mzstatic.com/image/thumb/Music/y2005/m06/d08/h17/s06.wyttmruy.jpg/600x600bb.jpg,Been Filled
+Record,Wee Tam,The Incredible String Band,1969,"Folk Rock, Folk",US,,J5,https://is1-ssl.mzstatic.com/image/thumb/Music/d3/d4/19/mzi.pmtgaqey.jpg/600x600bb.jpg,Been Filled
+Record,Hungry Skinny,Hungry Skinny,2015,Rock & Roll,US,,J5,https://is1-ssl.mzstatic.com/image/thumb/Music/v4/a7/f7/34/a7f734f0-adcd-536a-b526-360fd854a9c3/HUN_SKIN_136_1400.jpg/600x600bb.jpg,Been Filled
+Record,Hunger Farm,Dogma,1991,"Hardcore, Punk",US,,J5,https://i.discogs.com/q48XuzFVEU6GNvCPSauK4ijR-s8s20pZAY6KXBb1L4Q/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3OTM3/MTItMTQ5MDk3MDY2/Ni01NDk1LmpwZWc.jpeg,Been Filled
+Record,Drum,Hugo Largo,1987,"Avantgarde, Ethereal",US,,J5,https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f1/3c/65/f13c65ba-fa3c-fac4-8eec-2a7acdc98939/198588305621.jpg/600x600bb.jpg,Been Filled
+Record,The Steve Howe Album,Steve Howe,1979,"Acoustic, Art Rock, Symphonic Rock",US,,J5,https://is1-ssl.mzstatic.com/image/thumb/Music/3d/2b/92/mzi.wlixyfyw.jpg/600x600bb.jpg,Been Filled
+Record,Shine On,The House of Love,1990,Indie Rock,UK,,J5,https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/aa/e6/d5/aae6d53f-6eed-8386-48ad-b6909020e1ab/191924549086.jpg/600x600bb.jpg,Been Filled
+Record,Houses of the Holy,Led Zepplin,1976,Hard Rock,Taiwan,,J5,https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/4f/88/ad/4f88ad28-3953-fded-6c18-fe87b5d0dc7b/dj.iqdrlirx.jpg/600x600bb.jpg,Been Filled
+Record,Sun Goes Down,House of Freaks,2017,"House, Deep House, Garage House, Tech House, Nu-Disco, Vocal, Electro House, Hip-House, Progressive House, Euro House, Tropical House, Electro, Synth-pop, Techno, Experimental, Trip Hop, Indie Pop, Downtempo, Minimal, Ambient, Minimal Techno, Rhythm & Blues",France,,J5,https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b8/59/a5/b859a555-d4c4-8a5a-f83b-4317842e05e8/886449261307.jpg/600x600bb.jpg,Been Filled
+Record,Luxury Condos Coming to your Neighborhood Soon,Various Artists,1985,,,,J5,https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/52/89/a2/5289a28e-8982-ca80-2e2b-61a0965b4dc0/100229.jpg/600x600bb.jpg,Been Filled
+Record,Where the Groupies Killed the Blues,Lucifer's Friend,1975,"Jazz-Rock, Prog Rock, Hard Rock, Blues Rock",US,,J5,https://lastfm.freetls.fastly.net/i/u/300x300/5e8b4bf380234f219635d897d3745398.jpg,Been Filled
+Record,Laughter,Ian Luxury & the Blockheads,,,,,J5,,Been Filled
+Record,New Boots and Panties,Ian Dury,1977,"Punk, Pop Rock",UK,,J5,https://lastfm.freetls.fastly.net/i/u/300x300/27d0df59ae1664bd5b2ed20c65e5f6fc.png,Been Filled
+Record,Mirage,Camel,1974,Prog Rock,UK,,J5,https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/36/c0/15/36c015db-fa1b-c65c-67dc-302040ee3874/00042288292920.rgb.jpg/600x600bb.jpg,Been Filled
+Record,Vintage,Canned Heat,1970,Blues Rock,US,,J5,https://is1-ssl.mzstatic.com/image/thumb/Music49/v4/f8/d3/e8/f8d3e88c-199a-984e-0591-85ae9d3ad8a3/894232608925.jpg/600x600bb.jpg,Been Filled
+Record,Camper Van Chadbourne,Camper Van Chadbourne,1987,"Folk Rock, Acoustic, Art Rock, Psychedelic Rock, Contemporary Jazz",UK,,J5,https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/af/a9/7b/afa97b59-76c4-74d4-5679-3441b4471828/759092540726.jpg/600x600bb.jpg,Been Filled
+Record,11 + 111,Camper Van Beethoven,1993,"Folk Rock, Ska, Indie Rock",US,,J5,https://i.discogs.com/pcRw_dhm41mNuJ6tJ20cxBH86ZHvbrjOLDs5dyA3PYI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNTI1/NDEtMTIwNDQxNjU2/NS5qcGVn.jpeg,Been Filled
+Record,Our Beloved revolutionary Sweetheart,Camper Van Beethoven,1988,Alternative Rock,US,,J5,https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/2c/ef/44/2cef4401-e46d-aab7-e093-b8172e21151b/00077778605553.tif/600x600bb.jpg,Been Filled
+Record,Vampire Can Matching Oven,Camper Van Beethoven,,,,,J5,,Been Filled
+Record,Pitch-A-Tent,Camper Van Beethoven,1986,"Psychedelic Rock, Indie Rock",US,,J5,https://i.discogs.com/1YVxIrj3nIS8NH-k9_3VOyzqCWGQzeET4sj0HbqNccE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1Nzg2/OTgtMTI1NjQxNDc0/NC5qcGVn.jpeg,Been Filled
+Record,John Sebastian Song Book Vol. 1,The Lovin' Spoonful,1970,"Rock & Roll, Bluegrass",US,,J5,https://lastfm.freetls.fastly.net/i/u/300x300/6125ce5b47aeb1d3f385de356054dd67.jpg,Been Filled
+Record,The Best of the lovin' Spoonful Vol. 2,The Lovin' Spoonful,1969,"Pop Rock, Vocal",UK,,J5,https://lastfm.freetls.fastly.net/i/u/300x300/63f4e13588279ab75e355956756ad68a.jpg,Been Filled
+Record,This Ain't No Outerspace Ship,Love Tractor,1986,Indie Rock,US,,J5,https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/66/ba/a9/66baa990-d732-3ae8-1d6b-7a5bfdf64d0c/859709271781_cover.jpg/600x600bb.jpg,Been Filled
+Record,Express,Love and Rockets,1986,"Alternative Rock, Goth Rock, Post-Punk",US,,J5,https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/11/9e/ff/119effd1-c901-061f-6733-06243e7fd68e/607618203153.png/600x600bb.jpg,Been Filled
 CD,Search and Sieze,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
+CD,Vol. 1,Killing Cartisano,2018,,,,,,
+Record,,,1994,"Punk, Hardcore",Brazil,,J5,https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/f9/83/9b/f9839b45-2219-d80d-6113-769eaf748c0c/19UMGIM92504.rgb.jpg/600x600bb.jpg,Been Filled
+Record,Donovan's Greatest Hits,Donovan,1969,"Folk Rock, Psychedelic Rock",US,,J5,https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c6/0d/bf/c60dbff1-05e0-1f2e-95e3-cb686698988a/mzi.qztymdwq.jpg/600x600bb.jpg,Been Filled
+Record,Spy,Carly Simon,1979,Pop Rock,US,,J5,https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/9f/bf/8a/9fbf8a5e-ffd5-9fe7-09e0-8c7f8e478e05/mzm.uysuobqh.jpg/600x600bb.jpg,Been Filled
+Record,Belief (don't give up),The Questions,,,,,,,
 ,,,,,,,,,
 ,,,,,,,,,
 ,,,,,,,,,
@@ -844,93 +844,93 @@ Record,Round Trip,Eric Marienthal,1989,Contemporary Jazz,US,,"""B1""",https://la
 ,,,,,,,,,
 ,,,,,,,,,
 ,,,,,,,,,
-Record,Picking Up Where I Left Off...,Spot,,,,,,,
-Record,Witness,Spooky Tooth,,,,,,,
-Record,The Mirror,Spooky Tooth,,,,,,,
-Record,That Was Only Yesterday,Spooky Tooth,,,,,,,
-Record,The Last Puff,Spooky Tooth,,,,,,,
-Record,Frenzy!,Spontaneous Consumer,,,,,,,
-Record,Mental Notes,Split Enz,,,,,,,
-Record,Time and Tide,Split Enz,,,,,,,
-Record,Feelin' Bitchy,Splatcats,,,,,,,
-Record,Live Sampler,Outlaws,,,,,,,
-,Whirlpool,Some Velvet Sidewalk,,,,,,,
-,Back in Line,Steeleye Span,,,,,,,
-,Hello!,Status Quo,,,,,,,
-,Starz,Starz,,,,,,,
-,Starstruck Sountrack,Various Artists,1982,,,,,,
-,Fountains of Life,Starcastle,,,,,,,
-,Searching For A Thrill!,Starbuck,,,,,,,
-,Friends and Legends,Michael Stanley,,,,,,,
-,Greatest Hits,Michael Stanley Band,,,,,,,
-,Jim Stafford,Jim Stafford,,,,,,,
-,Extravaganza,Stackridge,,,,,,,
-,SRC,SRC,,,,,,,
-,Frank,Squeeze,,,,,,,
-,The Singles Album,Squire,,,,,,,
-,Babylond And On,Squeeze,,,,,,,
-,U.K. Squeeze,Squeeze,,,,,,,
-,Cool for Cats,Squeeze,,,,,,,
-,No Time,Squalls,,,,,,,
-,Rebel Shoes,Squalls,,,,,,,
-,Same,Skinyard,,,,,,,
-,The Family That Plays Together,Spirit,,,,,,,
-,Feedback,Spirit,,,,,,,
-,Orange,The Jon Spencer Blues Explosion,,,,,,,
-,Big Beat,Sparks,,,,,,,
-,Introducing Sparks,Sparks,,,,,,,
-,The Souther Hillman Furay Band,The Souther Hillman Furay Band,,,,,,,
-,Hearts of Stone,Southside Johnny,,,,,,,
-,You're Only Lonely,J.D. Souther,,,,,,,
-,Black Rose,John David Souther,,,,,,,
-,Heads and Hearts,The Sound,,,,,,,
-,In The Hothouse,The Sound,,,,,,,
-,Shock of Daylight,The Sound,,,,,,,
-,Thunder Up,The Sound,,,,,,,
-,To Spite My Face,Sister Ray,,,,,,,
-,Social Unrest,Social Unrest,,,,,,,
-,Slow,Sneetchers,,,,,,,
-,All You Can Eat,Smokin' Rhythm Prawns,,,,,,,
-,Beauty On The Interstate,Smart Opera,,,,,,,
-,Rattlesnake Bite,Smack,,,,,,,
-,Thrust,Sleepless,,,,,,,
-,Three Lefts Make A Right,Slap of Reality,,,,,,,
-,Sky 4: Forthcoming,Sky,,,,,,,
-,Sky 2,Sky,,,,,,,
-,Sky 3,Sky,,,,,,,
-,Skinner Box,Skinner Box,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
+Record,Picking Up Where I Left Off...,Spot,,,,,G1,,
+Record,Witness,Spooky Tooth,,,,,G1,,
+Record,The Mirror,Spooky Tooth,,,,,G1,,
+Record,That Was Only Yesterday,Spooky Tooth,,,,,G1,,
+Record,The Last Puff,Spooky Tooth,,,,,G1,,
+Record,Frenzy!,Spontaneous Consumer,,,,,G1,,
+Record,Mental Notes,Split Enz,,,,,G1,,
+Record,Time and Tide,Split Enz,,,,,G1,,
+Record,Feelin' Bitchy,Splatcats,,,,,G1,,
+Record,Live Sampler,Outlaws,,,,,G1,,
+Record,Whirlpool,Some Velvet Sidewalk,,,,,G1,,
+Record,Back in Line,Steeleye Span,,,,,G1,,
+Record,Hello!,Status Quo,,,,,G1,,
+Record,Starz,Starz,,,,,G1,,
+Record,Starstruck Sountrack,Various Artists,1982,,,,G1,,
+Record,Fountains of Life,Starcastle,,,,,G1,,
+Record,Searching For A Thrill!,Starbuck,,,,,G1,,
+Record,Friends and Legends,Michael Stanley,,,,,G1,,
+Record,Greatest Hits,Michael Stanley Band,,,,,G1,,
+Record,Jim Stafford,Jim Stafford,,,,,G1,,
+Record,Extravaganza,Stackridge,,,,,G1,,
+Record,SRC,SRC,,,,,G1,,
+Record,Frank,Squeeze,,,,,G1,,
+Record,The Singles Album,Squire,,,,,G1,,
+Record,Babylond And On,Squeeze,,,,,G1,,
+Record,U.K. Squeeze,Squeeze,,,,,G1,,
+Record,Cool for Cats,Squeeze,,,,,G1,,
+Record,No Time,Squalls,,,,,G1,,
+Record,Rebel Shoes,Squalls,,,,,G1,,
+Record,Same,Skinyard,,,,,G1,,
+Record,The Family That Plays Together,Spirit,,,,,G1,,
+Record,Feedback,Spirit,,,,,G1,,
+Record,Orange,The Jon Spencer Blues Explosion,,,,,G1,,
+Record,Big Beat,Sparks,,,,,G1,,
+Record,Introducing Sparks,Sparks,,,,,G1,,
+Record,The Souther Hillman Furay Band,The Souther Hillman Furay Band,,,,,G1,,
+Record,Hearts of Stone,Southside Johnny,,,,,G1,,
+Record,You're Only Lonely,J.D. Souther,,,,,G1,,
+Record,Black Rose,John David Souther,,,,,G1,,
+Record,Heads and Hearts,The Sound,,,,,G1,,
+Record,In The Hothouse,The Sound,,,,,G1,,
+Record,Shock of Daylight,The Sound,,,,,G1,,
+Record,Thunder Up,The Sound,,,,,G1,,
+Record,To Spite My Face,Sister Ray,,,,,G1,,
+Record,Social Unrest,Social Unrest,,,,,G1,,
+Record,Slow,Sneetchers,,,,,G1,,
+Record,All You Can Eat,Smokin' Rhythm Prawns,,,,,G1,,
+Record,Beauty On The Interstate,Smart Opera,,,,,G1,,
+Record,Rattlesnake Bite,Smack,,,,,G1,,
+Record,Thrust,Sleepless,,,,,G1,,
+Record,Three Lefts Make A Right,Slap of Reality,,,,,G1,,
+Record,Sky 4: Forthcoming,Sky,,,,,G1,,
+Record,Sky 2,Sky,,,,,G1,,
+Record,Sky 3,Sky,,,,,G1,,
+Record,Skinner Box,Skinner Box,,,,,G1,,
+Record,Heart and Mind,Sister Double Happiness,,,,,G1,,
+Record,Burning Oil,Skeletal Family,,,,,G1,,
+Record,Restless,Skeletal Family,,,,,G1,,
+Record,Inside The Eye,Skinyard,,,,,G1,,
+Record,The Imaginary Heart Of,Skinner Box,,,,,G1,,
+Record,Fist Sized Chunks,Skinyard,,,,,G1,,
+Record,Manual of Errors,Snakefinger,,,,,G1,,
+Record,The Playhouse,Skinner Box,,,,,G1,,
+Record,Hallowed Ground,Skin Yard,,,,,G1,,
+Record,Just Testing,Wishbone Ash,,,,,G1,,
+Record,Front Page News,Wishbone Ash,,,,,G1,,
+Record,Pilgrimage,Wishbone Ash,,,,,G1,,
+Record,Wishbone Four,Wishbone Ash,,,,,G1,,
+Record Sleeve,Stimulation Festival,Pain Teens,,,,,G1,,
+Record Sleeve,In Rock,Deep Purple,,,,,G1,,
+Record Sleeve,Get Into It,Egyptian Lover,,,,,G1,,
+Record Sleeve,Anthology of Portugese Music,Various Artists,,,,,G1,,
+Record Sleeve,Dreamboat Annie,Heart,,,,,G1,,
+Record Sleeve,Red Alert Jailbreak,Thin Lizzy,,,,,G1,,
+Record Sleeve,Who Are Those Guys,New Riders of the Purple Sage,,,,,G1,,
+Record Sleeve,Life Stories,Earl Klugh,,,,,G1,,
+Record Sleeve,Ole ELO,Electric Light Orchestra,,,,,G1,,
+Record Sleeve,Outlaws,Outlaws,,,,,G1,,
+Record Sleeve,The Spice of Life Too,Kazumi Watanabe,,,,,G1,,
+Record Sleeve,"The Smoker You Drink, The Player You Get",Joe Walsh,,,,,G1,,
+Record Sleeve,Thieves Like Us,New Order,,,,,G1,,
+Record,Put Sunshine In It,Arthur Blythe,,,,,G1,,
+Record,Phantom Surfers Play The Songs Of The Big-Screen Spectaculars,The Phantom Surfers,,,,,G1,,
+Record,4 Richer Or Poorer,R.O.C,,,,,G1,,
+Record Sleeve,Doin' It In A Haunted House,Yvonne Gage,,,,,G1,,
+Record Sleeve,Crawdaddy,Darling Buds,,,,,G1,,
+Record,United,Woody Shaw,,,,,G1,,
 ,,,,,,,,,
 ,,,,,,,,,
 ,,,,,,,,,
@@ -1026,17 +1026,17 @@ Record,On Course,Christopher Holldyay,1990,Jazz,United States,,C2,https://img.cd
 Record,Atavachron,Allan Holdsworth,1986,Jazz Fusion,United States,,C2,https://upload.wikimedia.org/wikipedia/en/5/54/Allan_Holdsworth_-_1986_-_Atavachron.jpg,
 Record,The Smooth One,Johnny Hodges,1979,Jazz,United States,,C2,https://share.google/qghybpB4CyWJjw0AB,
 Record,The Glory of Alberta Hunter,Alberta Hunter,1982,"Jazz, Blues",United States,,C2,https://share.google/pXYwv1cHM9YR2YUzJ,
-Record,the ides of march,Vehicle,1970,Prog Rock,United States,,C2,https://en.wikipedia.org/wiki/File:Idesvehicle.jpg,
-Record,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
+Record,The Ides of March,Vehicle,1970,Prog Rock,United States,,C2,https://en.wikipedia.org/wiki/File:Idesvehicle.jpg,
+Record,We Can't Go On Meeting  Like This,Hummingbird,1976,"Jazz, Funk",United States,"James Brown, Funkadelic",C2,https://cdn1.dustygroove.org/images/products/h/hummingbird_wecantgoo_101b.jpg,
+Record,sneakin' around,Helen Humes,1974,Jazz,United States,Nat King Cole,C2,https://i.discogs.com/SkhGI3DAIKIN9MOLLnUKqr2CFpUrQBQbDlMKgTeoTKI/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5NjM2/NDMtMTYxODE2MjY4/NS04ODYzLmpwZWc.jpeg,
+Record,Helen Humes and the Muse All Stars,Helen Humes,1979,Jazz,United States,Nat King Cole,C2,https://i.discogs.com/dzxg8nVclrP_m0cKuD5bIllAErrDKPyQzS8cgafKdMA/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU0ODM5/MTUtMTM5NDU0OTYz/My02Mjc2LmpwZWc.jpeg,
+Record,Let The Good Times Roll,Helen Humes,1973,Jazz,United States,Bobby Day,C2,https://i.discogs.com/cr4jFIMGP8RrX-MgDQELwG6aej-3KAFlw7rMm0VMoHY/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM5NzU5/NTctMTM1ODE2Nzk2/NS02MTA5LmpwZWc.jpeg,
+Record,Two to One,Thelma Houston and Jerry Butler,1978,Jazz,United States,,C2,https://i.discogs.com/SAUV7EGDVNGBisufLBcFD1wZi0MqHYIIDhZBAiJRpC0/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1MTE1/ODQtMTQxMzk4Mzg2/Ny02MDA2LmpwZWc.jpeg,
+Record,Issei Spirit,Glenn Horiuchi,1989,Jazz,United States,,C2,https://i.discogs.com/dynA0Nxc2VdBe9wnQcSKrfh7-tG9V5bPsD5pbloZ5ao/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU3NDI4/NDUtMTQwMTQxNzY5/NC01MTkzLmpwZWc.jpeg,
+Record,Joe Jackson's Jumpin Jive,Joe Jackson,1981,Jazz/Rockabilly,United States,,C2,https://i.discogs.com/hp5pZ18xEY8X-ia6O2-rb7wrqFLyWWJ70MmGcoATh_Q/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQwMDQ0/MTktMTM1MjAzMjc5/Mi0xNzI4LmpwZWc.jpeg,
+Record,New Chautaqua,Pat Metheny,1979,Folk,Norway,,C2,https://upload.wikimedia.org/wikipedia/en/6/6c/New_Chautauqua.jpg,
+Record,Pat Metheny Group,Pat Metheny,1978,Jazz,Norway,,C2,https://upload.wikimedia.org/wikipedia/en/1/1a/Pmg_-_pmg.jpg,
+Record,First Circle,Pat Metheny,1984,Jazz,United States,,C2,,
 ,,,,,,,,,
 ,,,,,,,,,
 ,,,,,,,,,
@@ -1262,27 +1262,27 @@ Record,Rounder Folk 1,Compilation,1986,"Folk, Bluegrass",US,,B4,https://i.discog
 Record,Sweet Music,Roadmaster,1978,Rock,US,,B4,https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/45/06/c0/4506c01a-6448-f1d8-6c17-befe0acee14b/888002739100.jpg/600x600bb.jpg,Been Filled
 Record,Games of Love,The Neon Judgment,2011,"Jazz, Rock, Funk / Soul, Blues, Pop, Folk, World, & Country",Belgium,,B4,https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/be/27/91/be279120-2285-16c6-c7ba-9d6643d4a948/075992732727.jpg/600x600bb.jpg,Been Filled
 Record,,John Hartford,1986,"Folk, World, & Country",US,,B4,https://is1-ssl.mzstatic.com/image/thumb/Music/64/0b/78/mzi.ddlpkrcq.jpg/600x600bb.jpg,Been Filled
-Record,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
+Record,Who are those Guys?,New Riders of the Purple Sage,1977,Country Rock,US,,B4,https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/22/ef/7f/22ef7f7b-61d8-9d39-de01-377eaa7b87e0/mzi.hsjdyxqe.jpg/600x600bb.jpg,Been Filled
+Record,Into the Vortex,Hammerhead,1994,"Hardcore, Noise, Psychedelic Rock",USA & Europe,,B4,https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/9d/5c/12/9d5c1243-195e-356c-5322-0ea74c9c3f35/803680612507.jpg/600x600bb.jpg,Been Filled
+Record,Framed,Asleep at the Wheel,1980,"Country, Swing",US,,B4,https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/41/f6/9b/41f69ba4-3aff-e85c-4fc1-6938f09ed12b/191018930349.jpg/600x600bb.jpg,Been Filled
+Record,Skin and Blisters,The Hoovers,1981,Ska,US,,B4,https://lastfm.freetls.fastly.net/i/u/300x300/03116516d334234bf474dcf29c42c619.jpg,Been Filled
+Record,My Sking covers my Body,Happy Flowers,2018,,,,B4,https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/27/94/d4/2794d4fc-c3e2-2373-3e6c-dd82fd5aefe6/18UMGIM18200.rgb.jpg/600x600bb.jpg,Been Filled
+Record,The Harmonic according to Charlie Musslewhite,Charlie Mussel White,1979,Country Blues,,,B4,https://is1-ssl.mzstatic.com/image/thumb/Music/y2003/m12/d23/h19/s05.ksgoqjeg.jpg/600x600bb.jpg,Been Filled
+Record,Sound Mirror,Clock DVA,1989,"EBM, Industrial",US,,B4,https://lastfm.freetls.fastly.net/i/u/300x300/6906aeb8ec23d011a8bfabd4b085cc87.jpg,Been Filled
+Record,Zack's Bon Ton,Zachary Richard,1989,Folk,US,,B4,https://is1-ssl.mzstatic.com/image/thumb/Music/a7/8c/e2/mzi.vpmnlban.jpg/600x600bb.jpg,Been Filled
+Record,Action Reacts,Get Smart!,1984,Punk,,,B4,,Been Filled
+Record,Everythangs Groovy,Gaye Bikers on Acid,1987,Punk,Germany,,B4,https://i.discogs.com/VbIjQYqk_CeJdTmkJvWuj34KDob9VGKFF6EQ79YAG_I/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY5MTY1/Mi0xMzAzNTkyNjMy/LmpwZWc.jpeg,Been Filled
+Record,Folkways: The Original Vision,Woody Guthrie and Leadbelly,1990,"Folk, World, & Country",US,,B4,https://is1-ssl.mzstatic.com/image/thumb/Music/af/20/ac/mzi.kzvhbfuy.tif/600x600bb.jpg,Been Filled
+Record,,,1980,Rock,Brazil,,B4,https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/f9/83/9b/f9839b45-2219-d80d-6113-769eaf748c0c/19UMGIM92504.rgb.jpg/600x600bb.jpg,Been Filled
+Record,,,1994,"Punk, Hardcore",Brazil,,B4,https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/f9/83/9b/f9839b45-2219-d80d-6113-769eaf748c0c/19UMGIM92504.rgb.jpg/600x600bb.jpg,Been Filled
+Record,,,1994,"Punk, Hardcore",Brazil,,B4,https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/f9/83/9b/f9839b45-2219-d80d-6113-769eaf748c0c/19UMGIM92504.rgb.jpg/600x600bb.jpg,Been Filled
+Record,,,1994,"Punk, Hardcore",Brazil,,B4,https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/f9/83/9b/f9839b45-2219-d80d-6113-769eaf748c0c/19UMGIM92504.rgb.jpg/600x600bb.jpg,Been Filled
+Record,,,1994,"Punk, Hardcore",Brazil,,B4,https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/f9/83/9b/f9839b45-2219-d80d-6113-769eaf748c0c/19UMGIM92504.rgb.jpg/600x600bb.jpg,Been Filled
+Record,,,1994,"Punk, Hardcore",Brazil,,B4,https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/f9/83/9b/f9839b45-2219-d80d-6113-769eaf748c0c/19UMGIM92504.rgb.jpg/600x600bb.jpg,Been Filled
+Record,,,1994,"Punk, Hardcore",Brazil,,B4,https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/f9/83/9b/f9839b45-2219-d80d-6113-769eaf748c0c/19UMGIM92504.rgb.jpg/600x600bb.jpg,Been Filled
+Record,,,1994,"Punk, Hardcore",Brazil,,B4,https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/f9/83/9b/f9839b45-2219-d80d-6113-769eaf748c0c/19UMGIM92504.rgb.jpg/600x600bb.jpg,Been Filled
+Record,,,1994,"Punk, Hardcore",Brazil,,B4,https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/f9/83/9b/f9839b45-2219-d80d-6113-769eaf748c0c/19UMGIM92504.rgb.jpg/600x600bb.jpg,Been Filled
+Record,,,1994,"Punk, Hardcore",Brazil,,B4,https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/f9/83/9b/f9839b45-2219-d80d-6113-769eaf748c0c/19UMGIM92504.rgb.jpg/600x600bb.jpg,Been Filled
 ,,,,,,,,,
 ,,,,,,,,,
 ,,,,,,,,,
@@ -2314,3 +2314,168 @@ Record,Imaginary Voyage,Jean-Luc Ponty,1976,"Jazz-Rock, Space Rock, Fusion",US,,
 Record,I'm the Fiddle,Papa John Creach,1977,Soul,US,,"""C3""",https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/db/1f/03/db1f03e2-c11a-5b6c-b08a-bda195684340/196873362649.jpg/600x600bb.jpg,Been Filled
 Record,Live,Jean-Luc Ponty,2000,"Fusion, Jazz-Rock",US,,"""C3""",https://is1-ssl.mzstatic.com/image/thumb/Music/d0/04/d7/mzi.tjmcuevg.jpg/600x600bb.jpg,Been Filled
 Record,Open Mind,Jean-Luc Ponty,1984,Fusion,US,,"""C3""",https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/98/3d/7f/983d7f1e-ddaa-e3ce-a98d-6e7835537c5c/081227519865.jpg/600x600bb.jpg,Been Filled
+Record,The Gift of Time,Jean-Luc Ponty,1987,"Fusion, Contemporary Jazz",US,,"""C3""",https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/ef/62/7b/ef627b96-19aa-cb83-7e9a-1ddbcea53e77/5099704098326.jpg/600x600bb.jpg,Been Filled
+Record,Enigmatic Ocean,Jean-Luc Ponty,1977,"Fusion, Jazz-Rock",US,,"""C3""",https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/a2/9d/cd/a29dcd44-90c7-5eea-7715-87cf392f5848/dj.yfuajgol.jpg/600x600bb.jpg,Been Filled
+Record,The Mad Scene,Various,1986,"Electric Blues, New Wave, Alternative Rock, Indie Rock, Power Pop",US,,"""C3""",https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/ee/c6/fd/eec6fd29-c0d0-2922-e568-4abb858a5550/dj.fymihfoe.jpg/600x600bb.jpg,Been Filled
+Record,Now's the Time,Gene Ludwig,1980,Jazz,US,,"""C3""",https://i.discogs.com/uNF2Um3LuC9PanpzI9sAmEgmk_CG0ctBSqmFVcWb-HE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0Mjkz/MTUtMTMxNzM1NDI0/Mi5qcGVn.jpeg,Been Filled
+Record,Lift Off,Jeff Lorber Fusion,1984,Jazz-Funk,US,,"""C3""",https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/63/87/20/638720f8-31ad-7243-3987-23e8d0482d88/886444334648.jpg/600x600bb.jpg,Been Filled
+Record,Jeff Lorber Fusion,JEff Lorber Fusion,1977,Jazz-Funk,US,,"""C3""",https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/bc/32/f0/bc32f004-9f2c-1b7f-67e2-8e791fd080f8/196922639159_Cover.jpg/600x600bb.jpg,Been Filled
+Record,Water Sign,JEff Lorber Fusion,1979,Jazz-Funk,US,,"""C3""",https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/06/73/8b/06738b50-9841-ab57-88df-63527cbae520/886444334624.jpg/600x600bb.jpg,Been Filled
+Record,Jazz for Playgirls,Billy ver Planck Orchestra,1958,Jazz,US,,"""C3""",https://i.discogs.com/TfxExPQhcNpWVaVT8tDEqOyJIg522XK-ypJ0aXFg8bk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY2NTU2/MDAtMTY1MTYwNDkw/Mi02MjExLmpwZWc.jpeg,Been Filled
+Record,Voo-It,Paula Lockheart,1987,"Jazz, Blues",US,,"""C3""",https://i.discogs.com/Orbv6EXlyBA2mcGgEoBh5G0AFx_Ieuu0gaELTZWMdkU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc3MDc5/MjYtMTU2NDA3MzYz/NS05MTI1LmpwZWc.jpeg,Been Filled
+Record,Distant Lover(s),Fred Lipsius,1984,Jazz,US,,"""C3""",https://i.discogs.com/GaQ2PoM_joWn5mWzGlbq94_XXiwSNV-Jg0fNx_adwPE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg1MTk1/NzgtMTQ2MzMxMTI4/Mi0zOTIyLmpwZWc.jpeg,Been Filled
+Record,A Day at the Surface,Bjorn J:son Lindh,1978,Fusion,US,,"""C3""",https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/31/7c/e8/317ce8e5-f1b2-fe64-3441-2c18b6010a98/mzi.bngffnja.jpg/600x600bb.jpg,Been Filled
+Record,Last Year's Waltz,Steve Kuhn Quartet,1982,"Contemporary Jazz, Post Bop",Germany,,"""C3""",https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/ed/3e/c5/ed3ec576-415b-3000-0757-5907950ad7f5/18UMGIM01801.rgb.jpg/600x600bb.jpg,Been Filled
+Record,Nonfiction,Steve Kuhn,1978,,,,"""C3""",https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/59/62/29/59622950-9e19-f5f3-2879-8fbc3406883f/18UMGIM01736.rgb.jpg/600x600bb.jpg,Been Filled
+Record,Breakthrough,The Don Pullens George Adams Quartet,1986,,,,"""C3""",https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/43/82/59/43825971-c92a-9b37-0531-d46f8a6cc9b4/20UMGIM19285.rgb.jpg/600x600bb.jpg,Been Filled
+Record,Eyes of the Heart,Keith Jarrett,1979,"Fusion, Free Jazz",Germany,,"""C3""",https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/71/5a/2c/715a2c0c-bb35-1641-7c6c-ce85658ee55b/00602547301086.rgb.jpg/600x600bb.jpg,Been Filled
+Record,On a Fair Summer Evening,Nanci Griffith,1988,"Folk, Folk Rock, Country",US,,"""C3""",https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/17/3a/de/173adedb-d848-650e-9549-117c1561d2f9/00076742225520.rgb.jpg/600x600bb.jpg,Been Filled
+Record,Catwalk,Bennie Green,1978,Hard Bop,US,,"""C3""",https://i.discogs.com/6nUmkNQTLbMOhpTGxMigd1fvoezLRuON3vzDX2aLN5g/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQzOTg4/ODQtMTM2MzgzNzk5/NC03OTEyLmpwZWc.jpeg,Been Filled
+Record,Mad Music,Robert Greenridge,1978,"Pop Rock, Funk",Germany,,"""C3""",https://i.discogs.com/7dzWsxdX54OVHiIRAn1zh5swCgWhjLlnAeoFrlcXFXs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM5NDI3/MS0xNTM4MDMzNzky/LTMxOTIuanBlZw.jpeg,Been Filled
+Record,"Pale, Pale Moon",Mike Greene,1975,Jazz-Rock,US,,"""C3""",https://is1-ssl.mzstatic.com/image/thumb/Music/8d/82/03/mzi.rymmthin.jpg/600x600bb.jpg,Been Filled
+Record,Disorder,Front Line Assembly,1988,"Electro, Industrial",Europe,,"""C3""",https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/72/c5/58/72c55811-a99c-b868-3ab4-47411860a580/889466298561.jpg/600x600bb.jpg,Been Filled
+Record,Sun Bear Concerts,Keith Jarrett,1978,Free Improvisation,Germany,,"""C3""",https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6b/8c/2f/6b8c2f35-692c-54fb-98ee-21f1fed2c6da/21UMGIM37894.rgb.jpg/600x600bb.jpg,Been Filled
+Record,The Suvivors' Suite,Keith Jarrett,1976,,,,"""C3""",https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/a4/a9/50/a4a95096-6f04-363a-7608-a42de3706f62/00602547301109.rgb.jpg/600x600bb.jpg,Been Filled
+Record,Invocations - the Moth and the Flame,Keith Jarrett,1981,Free Improvisation,US,,"""C3""",https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/12/93/be/1293bebe-23d9-e720-663f-286a2bdc772d/00042282547323.rgb.jpg/600x600bb.jpg,Been Filled
+Record,The Celestial Hawk,Keith Jarrett,1980,Neo-Classical,US,,"""C3""",https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/48/18/e8/4818e8c9-3f28-c8bc-f716-d8e3662b1377/00042282937025.rgb.jpg/600x600bb.jpg,Been Filled
+Record,Arbour Zena,Kieth Jarrett,1976,,,,"""C3""",https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/50/a1/d5/50a1d51e-2513-23ef-ffe3-d6af79320b25/00602547301055.rgb.jpg/600x600bb.jpg,Been Filled
+Record,Hymns Spheres,Keith Jarrett,1976,Free Improvisation,Germany,,"""C3""",https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/ac/1f/44/ac1f44ab-4cb5-0397-d083-a9ac734f87e6/00602537163915.rgb.jpg/600x600bb.jpg,Been Filled
+Record,Buddy and the Junior,Buddy Guy,1970,"Chicago Blues, Acoustic",US,,"""C3""",https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6e/65/ff/6e65ffc6-8c7a-c551-4f41-11d7e426c45d/00602527705972.rgb.jpg/600x600bb.jpg,Been Filled
+Record,1965,Al Jarreau,1983,Soul-Jazz,Italy,,"""C3""",https://lastfm.freetls.fastly.net/i/u/300x300/f4985ffda23343beae1fa41ee1a832a1.jpg,Been Filled
+Record,Jarreau,Al Jarreau,1983,"Soul-Jazz, Downtempo, Vocal",Germany,,"""C3""",https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a0/52/85/a05285ce-1573-91b6-bef6-353ce3d349f9/mzi.hhfrqile.jpg/600x600bb.jpg,Been Filled
+Record,All Fly Home,Al Jarreau,1978,"Soul, Funk",US,,"""C3""",https://is1-ssl.mzstatic.com/image/thumb/Music/61/01/12/mzi.hliyhmxn.jpg/600x600bb.jpg,Been Filled
+,,,,,,,,,
+Record,Backstreet,David Sanborn,1983,Smooth Jazz,US,,"""C4""",https://is1-ssl.mzstatic.com/image/thumb/Music/7b/63/21/mzi.qepnzqxw.jpg/600x600bb.jpg,Been Filled
+Record,Garden of Eden,Passport,1979,"Fusion, Jazz-Funk",Germany,,"""C4""",https://is1-ssl.mzstatic.com/image/thumb/Music/49/10/00/mzi.dfpzcmhw.jpg/600x600bb.jpg,Been Filled
+Record,Amigo,Arlo Guthrie,1976,"Folk, World, & Country",US,,"""C4""",https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/24/27/13/242713c9-8521-5611-4df7-20f716033950/889845178217.jpg/600x600bb.jpg,Been Filled
+Record,Isolation,Dessau,1988,Industrial,US,,"""C4""",https://i.discogs.com/FcBFrF_G0Tuv5R2AhR3t5TbzSajkPm87EEqphygCDFQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYzMDg1/NC0xMTQwODM1NTg2/LmpwZWc.jpeg,Been Filled
+Record,Warhol Machine,D.O.D.,1989,"House, Acid, Industrial",US,,"""C4""",https://i.discogs.com/FpLtasFNJ4P7YDyGM9QP20XQ1WJEq-nJ-KkfOk7qndM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxNzcz/OTUtMTM3MDQ1MTk5/OC00MDk0LmpwZWc.jpeg,Been Filled
+Record,Aion,Dead can Dance,2017,"Modern Classical, Medieval",UK & US,,"""C4""",https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/5f/8c/88/5f8c884c-cf81-b1c7-71ee-ac81ee183d2c/652637271041.png/600x600bb.jpg,Been Filled
+Record,Heaven is Waiting,The Danse Society,1984,"Goth Rock, Post-Punk, New Wave",Europe,,"""C4""",https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/1c/82/b8/1c82b872-0d07-a57c-d954-2c2d275504b7/artwork.jpg/600x600bb.jpg,Been Filled
+Record,The Serpent's Egg,Dead can Dance,1988,"Modern Classical, Ethereal",UK,,"""C4""",https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7d/67/2b/7d672b18-110b-13a9-e993-f93bc210bfa4/652637270945.png/600x600bb.jpg,Been Filled
+Record,Stone Bird,Supersax,1988,Bop,US,,"""C4""",https://i.discogs.com/OJA2_62O5OCS6uO6onUOO-tDHbD6e97-i74R4t1xBuM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwOTg1/ODctMTM1NjYxNTA2/Mi05MDAyLmpwZWc.jpeg,Been Filled
+Record,Straighten up and Fly Right,Supersax,1986,Contemporary Jazz,Europe,,"""C4""",https://i.discogs.com/zMaq3nRbHbkY-rNO2Fd7Ro4_ZTMFqyXm-LKggH_ahyY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4OTg3/MDUtMTU2OTA1MzMz/My02MzM1LmpwZWc.jpeg,Been Filled
+Record,Tutayay,Sukay,1986,Quechua,US,,"""C4""",https://i.discogs.com/VqWuG7BaY7G39544oV3RxCHba5_cNRYDE8ec5PjheRk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTczNjQy/OTctMTQzOTg3NTYy/Mi04NDkzLmpwZWc.jpeg,Been Filled
+Record,Guitarras,Jorge Strunz,1985,Flamenco,US,,"""C4""",https://i.discogs.com/tU1ucl7-TV4PYNsVa90Ob1OvJ_j9V6E8gZc83KQ1fqU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1MTUy/ODEtMTQ1MjA4MTA2/Mi01MTUwLnBuZw.jpeg,Been Filled
+Record,Body Bag,Die Warzau,1989,"Industrial, EBM",US,,"""C4""",https://i.discogs.com/BKpGWchMSI3PDvuEOClc6q8ZusXCQlWJdggNnaPXutM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU1NzA3/LTExODg4Nzk0MzYu/anBlZw.jpeg,Been Filled
+Record,Music World,Jamaaladeen Tacuma,1986,Jazz-Rock,Germany,,"""C4""",https://is1-ssl.mzstatic.com/image/thumb/Music/af/e1/f8/mzi.otdkqgpb.jpg/600x600bb.jpg,Been Filled
+Record,Frontera,Strunz,1984,"Gypsy Jazz, Fusion",US,,"""C4""",https://i.discogs.com/AxVjlxByhhmd2o5Njuz3UjNRRkMlGKWQXxgaCc_kXKw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM5MDcx/MDMtMTQwMDAwMzY5/OC01MDI1LmpwZWc.jpeg,Been Filled
+Record,Rising,Streetdancer,1977,"Fusion, Jazz-Rock",US,,"""C4""",https://lastfm.freetls.fastly.net/i/u/300x300/4fc336ce5d43469ec613cd76821f70d4.jpg,Been Filled
+Record,The Telluride Sessions,Strength in Numbers,1989,Bluegrass,US,,"""C4""",https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b8/27/d3/b827d35c-f82a-86ca-5a49-13d173f3455b/00008817003320.rgb.jpg/600x600bb.jpg,Been Filled
+Record,Solid Colors,Liz Story,1983,"Contemporary Jazz, Easy Listening",US,,"""C4""",https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/db/22/13/db221334-0a03-87f5-d6a0-9b59f1ac59f9/mzi.teqvglfx.jpg/600x600bb.jpg,Been Filled
+Record,Journee a la Maison,Alan Stivell,1978,"Folk Rock, Folk",Germany,,"""C4""",https://i.discogs.com/xeONuKpfjxbmxRez8xpv84-9hMlNHwq_aOsHH-Ttt4s/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzMDM4/NDAtMTI5NzA4OTU4/MS5qcGVn.jpeg,Been Filled
+Record,Steps Ahead,Steps Ahead,1983,Contemporary Jazz,US,,"""C4""",https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bf/6e/87/bf6e873c-00ea-5cbd-65cd-333dc31307ba/mzi.quilztjy.jpg/600x600bb.jpg,Been Filled
+Record,Havin' a Party with Southside Johnny,Southside Johnny,1979,Rock & Roll,Europe,,"""C4""",https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/45/f8/1e/45f81e7c-c4f5-5ea9-3faa-17b64cced54c/886449526550.jpg/600x600bb.jpg,Been Filled
+Record,Uptown,Maxine Sullivan,1985,Swing,US,,"""C4""",https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/dc/52/d3/dc52d3f4-2aa5-bd7d-fc98-eb4c17db419d/L100015327.jpg/600x600bb.jpg,Been Filled
+Record,Cross Currents,Richard Souther,1989,Smooth Jazz,US,,"""C4""",https://is1-ssl.mzstatic.com/image/thumb/Music/v4/c9/59/ae/c959ae6d-4776-ed5e-24ec-65e18ddf7e17/00094635217957.jpg/600x600bb.jpg,Been Filled
+Record,Musica Del Mar,Peter Sprague,1984,Jazz,US,,"""C4""",https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ca/02/c3/ca02c309-296c-a1c3-14fb-8dd13b194504/690880006225.jpg/600x600bb.jpg,Been Filled
+Record,Four for All,Sphere,1987,Jazz,US,,"""C4""",https://is1-ssl.mzstatic.com/image/thumb/Music/50/52/3d/mzi.pdduggba.jpg/600x600bb.jpg,Been Filled
+Record,Double Feature,Special EFX,1988,"Fusion, Smooth Jazz, Latin Jazz",US,,"""C4""",https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/a0/8b/d2/a08bd2a3-3fd0-9314-bc41-ca12d3825dd4/18UMGIM77440.rgb.jpg/600x600bb.jpg,Been Filled
+Record,Have a Little Faith,Joel Sonnier,1989,,,,"""C4""",https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/58/0c/9c/580c9cf8-c70e-17e0-67b9-6b1f90cc5e1c/196872806380.jpg/600x600bb.jpg,Been Filled
+Record,Some Philharmonic,Some Philharmonic,1983,"Contemporary Jazz, Jazz-Funk",US,,"""C4""",https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/47/9f/9a/479f9a45-4251-3235-0c11-2b347324bec5/mzi.mmlhmeth.jpg/600x600bb.jpg,Been Filled
+Record,Vital Information,Steve Smith,1983,"Jazz-Rock, Fusion",US,,"""C4""",https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/16/33/c4/1633c4b6-65af-d859-6483-9070a4d8d99e/30206243727.jpg/600x600bb.jpg,Been Filled
+Record,The Collection,Bessie Smith,1984,"Jazz, Blues",Italy,,"""C4""",https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/c6/7b/f6/c67bf6f4-9c01-143d-14dc-f365cdb0772f/dj.eakmjmwe.jpg/600x600bb.jpg,Been Filled
+Record,Skyyjammer,Skyy,1982,"Disco, Funk, Contemporary R&B",US,,"""C4""",https://lastfm.freetls.fastly.net/i/u/300x300/41bbf047bae04328aaddc8fb6d4dba47.jpg,Been Filled
+Record,Skyyline,Skyy,1981,"Funk, Disco",US,,"""C4""",https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a4/9d/d4/a49dd429-1830-da4e-1845-1731b4cb241e/617465325755.jpg/600x600bb.jpg,Been Filled
+Record,Texas Tornado,Sir Douglas Band,1973,"Blues Rock, Fusion, Soul, Texas Blues",US,,"""C4""",https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d2/6c/d5/d26cd521-34ad-13b4-1462-eb99f35d1402/mzi.jhbppwia.jpg/600x600bb.jpg,Been Filled
+Record,The Doctor is In,Ben Sidran,1977,"Jazz-Rock, Fusion, Bop",US,,"""C4""",https://is1-ssl.mzstatic.com/image/thumb/Music/42/78/48/mzi.nhosawmy.jpg/600x600bb.jpg,Been Filled
+Record,Phantom Navigator,Wayne Shorter,1987,Fusion,US,,"""C4""",https://is1-ssl.mzstatic.com/image/thumb/Music/v4/59/7f/5a/597f5ab5-d59a-50f5-ec06-3ce3a8f873fc/886443433762.jpg/600x600bb.jpg,Been Filled
+Record,Shieldstone,Bill Shields,1987,"Fusion, Rhythm & Blues",US,,"""C4""",https://i.discogs.com/fq3xoi4nVlfa4eHub1gsyddOad6yOGUy4f3Zv6CdHgI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk3MDgz/NjktMTQ4NjMzNTIy/NC0xNDA1LmpwZWc.jpeg,Been Filled
+Record,Telepathy,Bobby Shew,1982,Jazz,US,,"""C4""",https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ac/45/ab/ac45ab54-3295-c984-105c-ba049254b6f8/JP00223395.jpg/600x600bb.jpg,Been Filled
+Record,Words of a Mountain,Wally Badarou,1989,Ambient,UK,,"""C4""",https://lastfm.freetls.fastly.net/i/u/300x300/413fc66afb4270dd07f45a6ba8785028.jpg,Been Filled
+Record,Europe,Womad Talking Book,1986,"Jazz, Rock, Reggae, Folk, World, & Country",UK,,"""C4""",https://i.discogs.com/5om0lnwUf-zqMsZTnd_XQuo0koyViF1_dBng9qRrYlE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxOTIw/MDEtMTUwMDg5Mjc4/NS0xMjEzLmpwZWc.jpeg,Been Filled
+Record,Wishful Thinking,Wishful Thinking,1983,"Synth-pop, New Wave",Europe,,"""C4""",https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/8c/97/4e/8c974eec-70fa-6ab1-a38f-9ff8ae6ab6db/Wishful_Thinking.jpg/600x600bb.jpg,Been Filled
+Record,Hyena,Johanna Went,1982,"Alternative Rock, New Wave, Art Rock",US,,"""C4""",https://lastfm.freetls.fastly.net/i/u/300x300/73e3a191678648cba9dde84d247d3ec3.jpg,Been Filled
+Record,Tim Weisberg,Tim Weisberg,1972,"Smooth Jazz, Fusion",US,,"""C4""",https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/86/29/a7/8629a742-c5f1-0ba2-c4b2-b75d34765cac/mzi.tqpkpokm.jpg/600x600bb.jpg,Been Filled
+Record,Travelin' Light,Tim Weisberg,1981,Jazz,US,,"""C4""",https://lastfm.freetls.fastly.net/i/u/300x300/c92100d2f714a8b91729e0d3f377aa9f.jpg,Been Filled
+Record,Best Of,Tim Weisberg,1979,Contemporary Jazz,US,,"""C4""",https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/78/52/86/78528641-86dc-a246-eaf0-739e4fea8640/00075021326125.rgb.jpg/600x600bb.jpg,Been Filled
+Record,The Following Morning,Eberhard Weber,1977,Contemporary Jazz,Germany,,"""C4""",https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/ab/3d/02/ab3d02a0-1a91-cbee-719a-d9d9732ec18f/00042282911629.rgb.jpg/600x600bb.jpg,Been Filled
+Record,Chicken Jazz,The Waterboys,1983,"Alternative Rock, Folk Rock, Indie Rock",UK,,"""C4""",https://i.discogs.com/MhCsTxws9ixnmzNEjR3MtIrDk2uDSYWxJlXLNoEQ00g/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4MzE1/MTUtMTI0NjM3NTU2/Ny5qcGVn.jpeg,Been Filled
+Record,Bush Dance,Nana Vasconcelos,1987,"Latin Jazz, Contemporary Jazz, Fusion",US,,"""C4""",https://lastfm.freetls.fastly.net/i/u/300x300/48b1a8bd6c794032c080c2fdb7687e70.jpg,Been Filled
+Record,Modern New Orleans Masters,Various,1988,"Louisiana Blues, Rhythm & Blues",US,,"""C4""",https://i.discogs.com/DHVkDc0rR77wr-8l4uTAdw5-lEVVF-vTSL0cspUFRr4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0NTE2/NTMtMTMzMDg5NjMw/Mi5qcGVn.jpeg,Been Filled
+Record,Mind Time,Dave Valentine,2020,"Psychedelic Rock, Blues Rock",Germany,,"""C4""",https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b6/86/c9/b686c9af-f7c0-7619-5627-7cacaa752e17/4062548018165.png/600x600bb.jpg,Been Filled
+Record,Boom,Royce da 5'9,2000,Hip Hop,US,,"""C4""",https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/75/a2/e6/75a2e657-0373-2667-cfbb-ee2247f4dff8/194491110918.jpg/600x600bb.jpg,Been Filled
+Record,Movin' On,DJ U-Neek,1996,Hip Hop,US,,"""C4""",https://i.discogs.com/efuCACbwkinmOaR0CLDri4A9869N2y6g1CugeGfg1To/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUwMjM5/My0xMTI0NDUxNjMx/LmpwZw.jpeg,Been Filled
+Record,Pre-album,Tim Robinson,2012,"Comedy, Blues Rock",US,,"""C4""",https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/ce/bb/3e/cebb3ec9-6df0-30b9-fa51-decc9d839791/00602498806449.rgb.jpg/600x600bb.jpg,Been Filled
+Record,Aged and Laced,Bravo and Sandman,2001,Hip Hop,Germany,,"""C4""",https://i.discogs.com/mnBLd4CGU9oynk-ZhIJYEDzMJKK6xIVXJ2MSnimC0sU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUwODU2/Ni0xNDgyNDM3NTI0/LTcxMTEuanBlZw.jpeg,Been Filled
+Record,Nothin but a Party,KMC Kru,1992,"Contemporary R&B, House",US,,"""C4""",https://i.discogs.com/DIJ5mVBSUc3IQxPZvnip1kgdW5Ucq6i49ONrN3jrYaE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExODQz/NzItMTQwMTIyMTQ1/NC04OTI3LmpwZWc.jpeg,Been Filled
+Record,Close Up,David Sanborn,1988,"Contemporary Jazz, Smooth Jazz",Europe,,"""C4""",https://is1-ssl.mzstatic.com/image/thumb/Music/5a/4e/42/mzi.zhuelqww.jpg/600x600bb.jpg,Been Filled
+Record,Surf or Die,Surf MCs,1987,Hip Hop,US,,"""C4""",https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/c8/62/5b/c8625bbc-4051-9231-7897-631bad27acaa/886446537382.jpg/600x600bb.jpg,Been Filled
+Record,Late one Night,Dan Siegel,1989,Contemporary Jazz,US,,"""C4""",https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/bb/29/1f/bb291ff7-5de9-cb04-194c-1344b95f0696/886448388135.jpg/600x600bb.jpg,Been Filled
+Record,Let me See It,UGK,2001,Hip Hop,US,,"""C4""",https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/1c/c1/e0/1cc1e064-255c-e1b8-71fa-00cc68a5918e/23UM1IM06665.rgb.jpg/600x600bb.jpg,Been Filled
+Record,I'm Better Than That,The Terrorists,1995,"Gangsta, Conscious",US,,"""C4""",https://i.discogs.com/1S6FGaD0O-sx0IIhr865rmap4u3zPdE5CKS1IClay6o/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ3NDA0/Mi0xMjYyMjc0MjI4/LmpwZWc.jpeg,Been Filled
+Record,Lovebug,Starski,1983,Hip Hop,US,,"""C4""",https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b9/f4/2f/b9f42f07-69ea-cabe-b6a4-f7770fe9f65f/195729363212_cover.jpg/600x600bb.jpg,Been Filled
+Record,I'ma Put My Thing Down,Sha'dasious,1993,Hip Hop,US,,"""C4""",https://i.discogs.com/S3-dX0P9Jtv_oGzDPAY9O4aFb3y64MmMyPMb4hEuYQU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQyNjYw/MS0xMzcwMDY2NTQz/LTc5NTguanBlZw.jpeg,Been Filled
+Record,Nothing Can Stop Us,Serious Lee Fine,1989,Bass Music,US,,"""C4""",https://i.discogs.com/zJaITae8Oijk9WlCEq3wOECTT4yUvfG1Z92rRivyB5c/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU3MzA0/OC0xMzM0Njk0NDM2/LmpwZWc.jpeg,Been Filled
+Record,Graciously,Alvin Red Tyler,1987,Jazz,US,,"""C4""",https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/dc/42/de/dc42de70-2b26-f80b-f504-962e3c6ae5ff/19CRGIM12324.rgb.jpg/600x600bb.jpg,Been Filled
+,,,,,,,,,
+Record,Tales of the New West,Beat Farmers,1985,"Alternative Rock, Country Rock, Jangle Pop, Rock & Roll",US,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music/y2004/m12/d26/h21/s06.nwxwefvl.jpg/600x600bb.jpg,Been Filled
+Record,Hex,Hex,2017,"Post Rock, Experimental",UK,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c4/25/c4/c425c450-9b9b-83e1-53ff-e43e28579d14/1D2E3655-30D7-4F19-89AF-E19FEFAE93F2.png/600x600bb.jpg,Been Filled
+Record,Face to Face,Steve Harley,1977,Pop Rock,UK,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/76/3a/17763a3f-e8f0-4334-33be-b675769e40f9/5060516090242.png/600x600bb.jpg,Been Filled
+Record,The Last Month of the Year,Kingston Trio,1960,"Folk, Holiday",US,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/af/14/a9/af14a982-3e31-7b2a-3e28-86c7b2f57b2f/00724352352456.jpg/600x600bb.jpg,Been Filled
+Record,A Tribute to Lead Belly and Woody Guthrie,Various,1988,,,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music/16/34/bf/mzi.umlthzum.jpg/600x600bb.jpg,Been Filled
+Record,Boom boom chi boom boom,Tom Tom Club,1989,"Synth-pop, New Wave, Pop Rock",US,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music/78/1c/8d/mzi.qiblpjau.jpg/600x600bb.jpg,Been Filled
+Record,With the Foggy Mountain Boys,Flatt & Scruggs,1960,Bluegrass,US,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/87/07/28/870728ec-0a29-85d2-45ae-3281fc0a3e3b/00602577172670.rgb.jpg/600x600bb.jpg,Been Filled
+Record,The Best of Volume II,Don Williams,1979,Country,US,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b8/46/7d/b8467deb-c828-1ce9-6573-2e1303608a26/886447949801.jpg/600x600bb.jpg,Been Filled
+Record,Too Shy,Kajagoogoo,1983,"New Wave, Synth-pop",Europe,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fc/9e/4a/fc9e4af1-2732-c84a-65d5-475c2f08f6b1/842474186701.jpg/600x600bb.jpg,Been Filled
+Record,Nine,Fairport Convention,1973,Folk Rock,UK,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/5e/4e/7f/5e4e7f01-7307-6b09-5a8b-175810520478/00602517838314.rgb.jpg/600x600bb.jpg,Been Filled
+Record,Hotels Motels and Road Shows,Various,1978,"Blues Rock, Country Rock, Southern Rock",US,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/77/98/ac/7798ac99-a91b-1ef1-0323-5c76c58c74ff/5056013496908.png/600x600bb.jpg,Been Filled
+Record,Love Life,Berlin,1984,"New Wave, Synth-pop",US,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/9f/ac/a1/9faca1b2-76e2-fb29-b64c-7e3df14cf21e/19UM1IM12545.rgb.jpg/600x600bb.jpg,Been Filled
+Record,Flying Cowboys,Ricky Lee Jones,1990,"Folk, World, & Country",US,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/3a/d1/fc/3ad1fc81-26c5-494d-f16e-68f5385343ac/00602567665090.rgb.jpg/600x600bb.jpg,Been Filled
+Record,Photo-Finish,Rory Gallagher,1978,Blues Rock,UK,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/02/44/88/02448890-2cbf-e16d-eead-aacaf30ac15f/00602567368465.rgb.jpg/600x600bb.jpg,Been Filled
+Record,Taste,Rory Gallagher,1974,"Blues Rock, Classic Rock",UK,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5e/b0/4f/5eb04f57-553f-6465-a458-69875ed8a7dd/00602557824810.rgb.jpg/600x600bb.jpg,Been Filled
+Record,Gods and Gangsters,Heretix,1990,Rock,US,,"""C5""",https://i.discogs.com/tjktUa3Md_RYq9uneiYHhJDyWajL6JG7zYPbMpywZC0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDg1/MzMtMTQyNjY5MTAw/Ny01Mzk3LnBuZw.jpeg,Been Filled
+Record,Hammersmith,Hammersmith,1975,Classic Rock,US,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/7c/d4/fa/7cd4fa2f-10c0-3e48-289e-30ede7aa140f/22UMGIM73507.rgb.jpg/600x600bb.jpg,Been Filled
+Record,Sneak Me In,Lucifer's Friend,1980,"Hard Rock, AOR",Germany,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b8/fe/c1/b8fec1da-2565-5ae4-9ae0-9ba728acf53d/3b87c22b-8a64-49bc-b365-1f219543200c.jpg/600x600bb.jpg,Been Filled
+Record,Backstage,Reilly & Maloney,1986,Folk,US,,"""C5""",https://i.discogs.com/_q5navyJgN5wUzi0R5I894PoeCRoXCs0aaARQ9yJ1uA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYyNjU3/NjAtMTQxNTEzMTg2/OS02OTAyLmpwZWc.jpeg,Been Filled
+Record,The Reunion,Shearing Trio,1978,Jazz,Germany,,"""C5""",https://i.discogs.com/28GqNuZ4Rqitt09vuuPEBlhrZoS9FIRHa6DNpFIi7XY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyMDE4/MTUtMTMyMjE3NTQw/OS5qcGVn.jpeg,Been Filled
+Record,Civilian,Frank Tovey,1988,"Synth-pop, Experimental",UK,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music/v4/4d/ab/fc/4dabfcfd-b90d-5955-6c87-7c7b1675b25b/724596948651.jpg/600x600bb.jpg,Been Filled
+Record,The Man With The 4-way Hips,Tom Tom Club,1983,"Disco, Leftfield",US,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/1a/7e/42/1a7e428a-4449-b613-46c3-5fa75d83047a/00602567702023.rgb.jpg/600x600bb.jpg,Been Filled
+Record,Side Kicks,Thompson Twins,1983,Synth-pop,US,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b3/98/62/b398627c-4285-ee7e-a186-40ca8579286c/0884977845778.jpg/600x600bb.jpg,Been Filled
+Record,You Sexy Thing,Tom Tom Club,1992,"House, Deep House, Disco",US,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music/35/30/26/mzi.zzdbwepq.jpg/600x600bb.jpg,Been Filled
+Record,1950s,The Singers,1987,Vocal,US,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music/ba/9d/99/mzi.ejxiswcs.jpg/600x600bb.jpg,Been Filled
+Record,Honey to a Bee,Tina B,1986,"Freestyle, Electro",US,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/33/ae/b9/33aeb90b-5a9b-78c3-cad1-8aeec06ff53b/810043680936.jpg/600x600bb.jpg,Been Filled
+Record,London,Greater than One,1989,"Industrial, Experimental",US,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music/d1/41/c9/mzi.mwivhmxb.jpg/600x600bb.jpg,Been Filled
+Record,Saint of the Pit,Diamanda Galas,1986,"Abstract, Experimental, Vocal, Avantgarde",UK,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/3f/e4/a3/3fe4a32c-7fb9-7e28-6c01-a95071ac2465/881626527368_cover.jpg/600x600bb.jpg,Been Filled
+Record,Caught in Flux,Eyeless in Gaza,1981,"New Wave, Abstract",UK,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/72/9d/5b/729d5bf6-3433-e863-a354-a808995d6bb1/5013929114524.jpg/600x600bb.jpg,Been Filled
+Record,Drumming the Beating Heart,Eyeless in Gaza,1982,"New Wave, Ambient",UK,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music/cb/b2/76/mzi.akmtflpv.jpg/600x600bb.jpg,Been Filled
+Record,Seasons Change,Expose,1987,"Soul, Freestyle",US,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8a/55/63/8a556392-1bd7-97a6-4c56-8ebbc34abda1/886446885094.jpg/600x600bb.jpg,Been Filled
+Record,Our Lady,Executive Slacks,1984,"Electro, Industrial",USA & Europe,,"""C5""",https://lastfm.freetls.fastly.net/i/u/300x300/57faca7b786a06f473a2939c26828ba4.jpg,Been Filled
+Record,Who Needs Love Like That,Erasure,1985,Synth-pop,UK,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/36/d1/c3/36d1c314-392f-3251-2e52-68db0165c258/PARK0985.jpg/600x600bb.jpg,Been Filled
+Record,Special Beat Service,The English Beat,1982,"New Wave, Ska",US,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/7c/58/53/7c585395-c849-1b47-a8fd-f0faa9375497/603497828319.jpg/600x600bb.jpg,Been Filled
+Record,Before Today,Everything but the Girl,1997,"House, Drum n Bass, Trance",UK,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/c3/e1/d8/c3e1d886-d667-63b3-9f5b-8ed3047b3204/0810098500777.png/600x600bb.jpg,Been Filled
+Record,Nighthawks,Keith Emerson,1981,"Score, Prog Rock, Experimental, Disco",US,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/be/52/b4/be52b4b5-c91b-99d5-a148-843fbc5a6b0e/5021732076212.jpg/600x600bb.jpg,Been Filled
+Record,A Gray Flash,Embryo Surveyors,1992,"Avantgarde, Experimental, Minimal",US,,"""C5""",https://i.discogs.com/Slle9S58F195zu1VU-uHaHnoRcE7B63KntMLOa6OyaY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcwMjM4/NjEtMTQzMTkwNjI4/NS00NzgxLmpwZWc.jpeg,Been Filled
+Record,Inside,Eloy,2013,Hard Rock,Europe,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/2f/b6/fa/2fb6fa8a-e554-ec4b-d965-35fb61fdb47e/00724352268153.jpg/600x600bb.jpg,Been Filled
+Record,Sons and Lovers,Hazel O'Connor,1980,"Downtempo, Synth-pop",UK,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cd/c3/4c/cdc34cdc-6de5-719b-856f-1bc5a9e056c4/192562236673.jpg/600x600bb.jpg,Been Filled
+Record,Electric Zodiac,Douglas Leedy,1969,"Experimental, Minimal, Contemporary, Post-Modern",US,,"""C5""",https://i.discogs.com/ieWCUW2Z3pJ73Y1aGnq6dJvj7ZeFVpy-nGQRQ20hQq4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc5Mzg3/MC0xMTU5NDM1NzY0/LmpwZWc.jpeg,Been Filled
+Record,Waiting for the Redbird,Easterhouse,1989,"Alternative Rock, New Wave, Indie Rock",UK,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2b/60/03/2b60035b-e493-bb9b-ac80-0206d1e5ba51/886449685400.jpg/600x600bb.jpg,Been Filled
+Record,Land of Hunger,The Earons,1984,"Dub, Disco",US,,"""C5""",https://lastfm.freetls.fastly.net/i/u/300x300/24bad984b9607a8980d8db38e27f217d.jpg,Been Filled
+Record,Here's the World for Ya,Paul Hyde and the Payola$,1985,"New Wave, Power Pop, Pop Rock",Canada,,"""C5""",https://i.discogs.com/MiV6RINEiF_UHhobHzYgegczjA8hFAM8TJvdv3cRpVs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyNzc4/MDMtMTMyMjA4MjI3/MS5qcGVn.jpeg,Been Filled
+Record,Le Je-ne-sais-quoi et le presque rien,Trisomie 21,1986,"New Wave, Darkwave, Coldwave",Belgium,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/fb/bc/87/fbbc87a7-599b-8323-2785-caeb7dcdcb54/859743325099_cover.jpg/600x600bb.jpg,Been Filled
+Record,A la Carte,Triumvirat,1978,"AOR, Prog Rock, Soft Rock, Symphonic Rock",Germany,,"""C5""",https://lastfm.freetls.fastly.net/i/u/300x300/4af4e6fe5f6b4616c174deb39bf899ad.jpg,Been Filled
+Record,Shift Away,Trisomie 21,1987,"New Wave, Electro",Belgium,,"""C5""",https://lastfm.freetls.fastly.net/i/u/300x300/c630ffc6e150868c237da2b626625618.jpg,Been Filled
+Record,Million Lights,Trisomie 21,1987,"New Wave, Synth-pop",Belgium,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f0/bf/77/f0bf7719-50a8-c834-d7d9-b2e43e5a08fe/t21.jpg/600x600bb.jpg,Been Filled
+Record,Far from the Hurting Kind,Tracie,1984,Synth-pop,UK,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2e/8a/f5/2e8af586-8e44-1d65-405f-222378d75b16/190295012434.jpg/600x600bb.jpg,Been Filled
+Record,Snakes and Ladders,Frank Tovey,1986,"New Wave, Synth-pop",US,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/cd/17/c1/cd17c145-f8b6-a439-069f-a28f7a3beaf4/724596948750.jpg/600x600bb.jpg,Been Filled
+Record,Cloud About Mercury,David Torn,1987,Ambient,Germany,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/9c/ed/fa/9cedfa09-f082-27e6-2774-dfeb6141726f/00042283110823.rgb.jpg/600x600bb.jpg,Been Filled
+Record,Manhattan Boogie-Woogie,Landscape,1982,Synth-pop,UK,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c0/ad/4e/c0ad4e1e-7421-91b2-ef02-826b606fb162/711297533545.jpg/600x600bb.jpg,Been Filled
+Record,Pull's Plastic Playground,Pull,1998,Progressive House,US,,"""C5""",https://i.discogs.com/4xH7CO1ugk0X17x5DJyn0Ce2cdWhphzfPh5FXrrK740/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2NDc4/OS0xMjQ1NTAyMjgw/LmpwZWc.jpeg,Been Filled
+Record,BAck in the High Life,Steve Winwood,1986,"Pop Rock, Synth-pop",US,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2a/85/a9/2a85a9de-0b4c-ece7-2686-9e5cc59ce6bf/18UMGIM41826.rgb.jpg/600x600bb.jpg,Been Filled
+Record,The Weapons,David Newman,2018,"Soundtrack, Score",US,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music/y2005/m06/d12/h10/s05.mayqyjhg.jpg/600x600bb.jpg,Been Filled
+Record,Twist of Shadows,Xymox,1989,"Electro, Synth-pop",US,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/13/14/fc/1314fc24-b2d6-30c7-2bd2-59097d094592/00042283923324.rgb.jpg/600x600bb.jpg,Been Filled
+Record,Go Too,Stomu Yamashta,1977,"Jazz-Rock, Jazz-Funk, Experimental, Prog Rock, Fusion",US,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music/v4/7b/e7/68/7be768fc-872c-0881-b102-69ad11d2120d/886443313149.jpg/600x600bb.jpg,Been Filled
+Record,Medusa,Xymox,1986,"Synth-pop, Darkwave",UK,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/e2/6c/02/e26c0202-1f88-1990-27b6-9118197b43af/5014436613029.png/600x600bb.jpg,Been Filled
+Record,Will Power,Joe Jackson,1987,Modern Classical,Germany,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/9c/19/09/9c1909fe-5e86-aea7-1b70-fa8730703540/00082839390828.rgb.jpg/600x600bb.jpg,Been Filled
+Record,Precious Moments,Jermaine Jackson,1986,"Soul, Contemporary R&B, Synth-pop, Ballad",Europe,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music/v4/a3/55/23/a35523af-175a-827a-8b7e-413049914f00/886444356312.jpg/600x600bb.jpg,Been Filled
+Record,Spiritual Vision,Crimson Ivy,1988,New Wave,US,,"""C5""",https://lastfm.freetls.fastly.net/i/u/300x300/5fc87c8df9c34d9b923764e7fe0780e2.jpg,Been Filled
+Record,No Question About It,Kent Jordan,1984,"Smooth Jazz, Fusion, Funk, Boogie",US,,"""C5""",https://lastfm.freetls.fastly.net/i/u/300x300/75866d1dcc85d519750239f58b8e1e63.jpg,Been Filled
+Record,It's Another Iowa Compilation (Uncharted Territories),Various,1988,"Alternative Rock, Experimental",US,,"""C5""",https://i.discogs.com/OwYl8aZnALhZVWE5irZD5DrvMJM_kzgDqksjrhGiHsk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4MTUy/NDUtMTU4Mzk4NDE2/Ny0xNDEyLmpwZWc.jpeg,Been Filled
+Record,In the Nursery,Koda,1988,"Modern Classical, Industrial, Experimental",UK,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e8/13/fa/e813fa3e-0cec-6f1a-8629-ebb109175e38/mzi.eqpomhcd.jpg/600x600bb.jpg,Been Filled
+Record,Design,Interior,1988,Synth-pop,US,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music/b1/75/ce/mzi.xyjhdwdx.jpg/600x600bb.jpg,Been Filled
+Record,Illustrated Man,Illustrated Man,1984,New Wave,US,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9d/8b/11/9d8b11cd-eb60-d3ce-6361-cc6c808c23b4/artwork.jpg/600x600bb.jpg,Been Filled
+Record,Current Calculation,David Hykes,1992,,,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music/0c/4c/87/mzi.nkgmlnly.jpg/600x600bb.jpg,Been Filled
+Record,Zobi la Mouche,Les Negresses Vertes,1989,"Downtempo, Tribal House",UK,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/12/4f/0a/124f0a38-0410-93e0-c742-1045d06efaa7/5060421569659_cover.jpg/600x600bb.jpg,Been Filled
+Record,Cash Flow,Leisure Process,1983,"Pop Rock, New Wave, Country, Reggae",Canada,,"""C5""",https://i.discogs.com/elcUHs7cWffFbX7gmK7ol9BEmglvZxxUNKTDyQ6zuDU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU2Nzgy/MzktMTU0MTk5MjU0/NS0xNjYxLmpwZWc.jpeg,Been Filled
+Record,Major Malfunction,Keith LeBlanc,1986,"Breaks, Electro, Dub",UK & Europe,,"""C5""",https://is1-ssl.mzstatic.com/image/thumb/Music/24/22/5f/mzi.lrjmnsve.tif/600x600bb.jpg,Been Filled
+Record,Can't Hold Back,Doug Lazy,1990,"House, Hip Hop, Hip-House",US,,"""C5""",https://i.discogs.com/Oxdd7-dubWW8N10cQt9dhEmJ3vnS_F0uajrGyCZYjXo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc1Nzgx/LTE2MDQ3Njc3ODct/ODQ5Ny5qcGVn.jpeg,Been Filled
