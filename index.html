@@ -6,6 +6,339 @@
     <title>KSDT Radio - Digital Music Library</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
+
+        /* Search Container */
+        .search-container {
+            max-width: 1400px;
+            margin: 0 auto 20px;
+            padding: 0 20px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .search-box {
+            background: rgba(16, 20, 35, 0.9);
+            border-radius: 16px;
+            padding: 18px 25px;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(10px);
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            transition: all 0.3s ease;
+        }
+        
+        .search-box:focus-within {
+            border-color: var(--accent-primary);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 
+                        0 0 20px rgba(138, 111, 255, 0.3);
+        }
+        
+        .search-icon {
+            font-size: 1.3rem;
+            color: var(--accent-primary);
+            flex-shrink: 0;
+        }
+        
+        #searchInput {
+            flex: 1;
+            background: transparent;
+            border: none;
+            color: var(--text-primary);
+            font-size: 1.1rem;
+            padding: 8px 0;
+            outline: none;
+        }
+        
+        #searchInput::placeholder {
+            color: var(--text-secondary);
+        }
+        
+        .clear-search {
+            background: rgba(138, 111, 255, 0.2);
+            border: none;
+            color: var(--text-secondary);
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            flex-shrink: 0;
+        }
+        
+        .clear-search:hover {
+            background: rgba(138, 111, 255, 0.4);
+            color: var(--text-primary);
+        }
+        
+        /* Search Results View */
+        #searchResultsView {
+            display: none;
+            animation: fadeIn 0.5s ease;
+        }
+        
+        #searchResultsView.active {
+            display: block;
+        }
+        
+        .search-results-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+            padding: 20px;
+            background: rgba(16, 20, 35, 0.7);
+            border-radius: 16px;
+            border: 1px solid var(--border-color);
+            backdrop-filter: blur(10px);
+        }
+        
+        .search-results-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .search-results-title i {
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-nebula));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        
+        .search-results-count {
+            color: var(--accent-secondary);
+            font-weight: 600;
+        }
+        
+        .back-to-library {
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-nebula));
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 12px;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.3s ease;
+        }
+        
+        .back-to-library:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(138, 111, 255, 0.4);
+        }
+        
+        /* Search Results Grid */
+        .search-results-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 25px;
+            padding: 10px;
+        }
+        
+        .search-album-card {
+            background: linear-gradient(145deg, rgba(22, 27, 42, 0.9), rgba(16, 20, 35, 0.9));
+            border-radius: 16px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(138, 111, 255, 0.1);
+            backdrop-filter: blur(5px);
+            cursor: pointer;
+            aspect-ratio: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .search-album-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+            border-color: var(--accent-primary);
+        }
+
+                /* Add hover overlay to search album cards */
+        .search-album-card {
+            position: relative; /* Add this for positioning context */
+            overflow: hidden; /* Ensure overlay doesn't overflow */
+        }
+        
+        .search-album-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(transparent, rgba(10, 14, 23, 0.95));
+            color: white;
+            padding: 12px 10px 8px;
+            z-index: 2;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            border-bottom-left-radius: 16px;
+            border-bottom-right-radius: 16px;
+            transform: translateY(100%);
+            transition: all 0.3s ease;
+        }
+        
+        .search-album-card:hover .search-album-overlay {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        /* Adjust the cover to be behind the overlay */
+        .search-album-cover {
+            position: relative;
+            z-index: 1;
+        }
+        
+        /* Style the overlay text */
+        .search-album-overlay .album-title {
+            font-weight: 700;
+            margin-bottom: 4px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-size: 0.75rem;
+            font-style: italic;
+            color: var(--accent-secondary);
+            line-height: 1.2;
+        }
+        
+        .search-album-overlay .album-artist {
+            color: #a88bff;
+            font-size: 0.7rem;
+            margin-bottom: 5px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            line-height: 1.2;
+            font-weight: 600;
+        }
+        
+        .search-album-overlay .album-meta {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.7rem;
+            color: var(--accent-secondary);
+        }
+        
+        .search-album-cover {
+            width: 100%;
+            height: 180px;
+            flex-shrink: 0;
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+        
+        .search-album-info {
+            padding: 15px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .search-album-title {
+            font-weight: 700;
+            margin-bottom: 6px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-size: 0.95rem;
+            color: var(--accent-secondary);
+        }
+        
+        .search-album-artist {
+            color: var(--accent-primary);
+            font-size: 0.85rem;
+            margin-bottom: 8px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
+        .search-album-meta {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            display: flex;
+            justify-content: space-between;
+            margin-top: auto;
+        }
+        
+        .search-album-shelf {
+            background: rgba(138, 111, 255, 0.2);
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 0.75rem;
+        }
+        
+        /* No Results Message */
+        .no-results {
+            text-align: center;
+            padding: 60px 20px;
+            background: rgba(16, 20, 35, 0.7);
+            border-radius: 16px;
+            border: 1px solid var(--border-color);
+            backdrop-filter: blur(10px);
+            margin-top: 20px;
+        }
+        
+        .no-results i {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-nebula));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        
+        .no-results h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: var(--text-primary);
+        }
+        
+        .no-results p {
+            color: var(--text-secondary);
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        
+        /* Add to media queries */
+        @media (max-width: 768px) {
+            .search-results-grid {
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+                gap: 15px;
+            }
+            
+            .search-album-cover {
+                height: 150px;
+            }
+            
+            .search-results-header {
+                flex-direction: column;
+                gap: 15px;
+                text-align: center;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .search-results-grid {
+                grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+            }
+            
+            .search-album-cover {
+                height: 130px;
+            }
+        }
+
         * {
             margin: 0;
             padding: 0;
@@ -95,6 +428,10 @@
                         inset 0 1px 0 rgba(255, 255, 255, 0.1);
             position: relative;
             overflow: hidden;
+        }
+
+        .container {
+            padding-top: 0; /* Remove top padding since search is above */
         }
         
         header::before {
@@ -840,6 +1177,17 @@
     <div class="starfield" id="starfield"></div>
     <div class="cosmic-glow glow-1"></div>
     <div class="cosmic-glow glow-2"></div>
+
+    <!-- Search Container -->
+    <div class="search-container">
+        <div class="search-box">
+            <i class="fas fa-search search-icon"></i>
+            <input type="text" id="searchInput" placeholder="Search albums, artists, genres...">
+            <button class="clear-search" id="clearSearch" style="display: none;">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    </div>
     
     <div class="container">
         <header>
@@ -887,6 +1235,23 @@
                 </div>
             </div>
         </div>
+
+                <!-- Search Results View -->
+        <div id="searchResultsView" class="view-container">
+            <div class="search-results-header">
+                <div class="search-results-title">
+                    <i class="fas fa-search"></i>
+                    Search Results: <span class="search-results-count" id="resultsCount">0</span> albums found
+                </div>
+                <button class="back-to-library" id="backToLibrary">
+                    <i class="fas fa-arrow-left"></i> Back to Library
+                </button>
+            </div>
+            
+            <div id="searchResultsContent">
+                <!-- Search results grid will be generated here -->
+            </div>
+        </div>
         
         <!-- Album Detail View -->
         <div class="album-detail-overlay" id="album-detail">
@@ -930,6 +1295,14 @@
         // Data management
         let libraryData = [];
         let filteredData = [];
+
+        let searchTimeout;
+        const searchInput = document.getElementById('searchInput');
+        const clearSearchBtn = document.getElementById('clearSearch');
+        const searchResultsView = document.getElementById('searchResultsView');
+        const searchResultsContent = document.getElementById('searchResultsContent');
+        const resultsCountElement = document.getElementById('resultsCount');
+        const backToLibraryBtn = document.getElementById('backToLibrary');
 
         // DOM elements
         const viewModeSelect = document.getElementById('viewMode');
@@ -988,6 +1361,9 @@
                     closeAlbumDetail();
                 }
             });
+
+            // NEW: Search functionality event listeners
+            setupSearchListeners();
             
             // Load library data automatically
             try {
@@ -998,6 +1374,164 @@
                 showEmptyState();
             }
         });
+
+        // NEW: Setup search listeners
+        function setupSearchListeners() {
+            // Search input event
+            searchInput.addEventListener('input', function() {
+                clearTimeout(searchTimeout);
+                
+                // Show/hide clear button
+                if (this.value.trim() !== '') {
+                    clearSearchBtn.style.display = 'flex';
+                } else {
+                    clearSearchBtn.style.display = 'none';
+                }
+                
+                // Search with debounce
+                searchTimeout = setTimeout(() => {
+                    performSearch(this.value.trim());
+                }, 300);
+            });
+            
+            // Clear search button
+            clearSearchBtn.addEventListener('click', function() {
+                searchInput.value = '';
+                this.style.display = 'none';
+                hideSearchResults();
+            });
+            
+            // Back to library button
+            backToLibraryBtn.addEventListener('click', hideSearchResults);
+            
+            // Keyboard shortcuts
+            searchInput.addEventListener('keydown', function(e) {
+                if (e.key === 'Enter') {
+                    performSearch(this.value.trim());
+                }
+            });
+        }
+
+        // NEW: Perform search function
+        function performSearch(searchTerm) {
+            if (searchTerm === '') {
+                hideSearchResults();
+                return;
+            }
+            
+            console.log('Searching for:', searchTerm);
+            
+            // Normalize search term (case insensitive)
+            const term = searchTerm.toLowerCase();
+            
+            // Search in album fields
+            const results = libraryData.filter(album => {
+                // Check title
+                if (album.title && album.title.toLowerCase().includes(term)) return true;
+                
+                // Check artist
+                if (album.artist && album.artist.toLowerCase().includes(term)) return true;
+                
+                // Check genres
+                if (album.genres && album.genres.some(genre => 
+                    genre && genre.toLowerCase().includes(term))) return true;
+                
+                // Check RIYL
+                if (album.riyl && album.riyl.toLowerCase().includes(term)) return true;
+                
+                return false;
+            });
+            
+            // Display results
+            displaySearchResults(results, searchTerm);
+        }
+
+        // NEW: Display search results
+        function displaySearchResults(results, searchTerm) {
+            // Hide other views
+            shelfRowView.classList.remove('active');
+            cubbyView.classList.remove('active');
+            
+            // Show search results view
+            searchResultsView.classList.add('active');
+            
+            // Update results count
+            resultsCountElement.textContent = results.length;
+            
+            // Clear previous results
+            searchResultsContent.innerHTML = '';
+            
+            if (results.length === 0) {
+                // Show no results message
+                searchResultsContent.innerHTML = `
+                    <div class="no-results">
+                        <i class="fas fa-search"></i>
+                        <h3>No Results Found</h3>
+                        <p>No albums found matching "${searchTerm}". Try searching with different keywords.</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            // Create results grid
+            const grid = document.createElement('div');
+            grid.className = 'search-results-grid';
+            
+            // Add album cards to grid
+            results.forEach(album => {
+                const albumCard = document.createElement('div');
+                albumCard.className = 'search-album-card';
+                albumCard.setAttribute('data-id', album.title);
+                
+                                // Create card content with hover overlay
+                albumCard.innerHTML = `
+                    <div class="search-album-cover" style="background-image: url(${album.albumcoverurl || 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80'})"></div>
+                    <div class="search-album-overlay">
+                        <div class="album-title">${album.title || 'Unknown Album'}</div>
+                        <div class="album-artist">${album.artist || 'Unknown Artist'}</div>
+                        <div class="album-meta">
+                            <span>${album.releaseYear || 'Year Unknown'}</span>
+                            <span>${album.genres && album.genres[0] ? album.genres[0] : 'No Genre'}</span>
+                        </div>
+                    </div>
+                    <div class="search-album-info">
+                        <div class="search-album-title">${album.title || 'Unknown Album'}</div>
+                        <div class="search-album-artist">${album.artist || 'Unknown Artist'}</div>
+                        <div class="search-album-meta">
+                            <span>${album.releaseYear || 'Year Unknown'}</span>
+                            <span class="search-album-shelf">${album.location || 'Unknown'}</span>
+                        </div>
+                    </div>
+                `;
+                
+                // Add click event
+                albumCard.addEventListener('click', () => {
+                    showAlbumDetail(album);
+                });
+                
+                grid.appendChild(albumCard);
+            });
+            
+            searchResultsContent.appendChild(grid);
+            
+            // Scroll to results
+            searchResultsView.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // NEW: Hide search results
+        function hideSearchResults() {
+            searchInput.value = '';
+            clearSearchBtn.style.display = 'none';
+            searchResultsView.classList.remove('active');
+            
+            // Show the previously active view
+            const selectedView = viewModeSelect.value;
+            if (selectedView === 'shelf-row') {
+                shelfRowView.classList.add('active');
+            } else {
+                cubbyView.classList.add('active');
+            }
+        }
 
         // Parse CSV data
         function parseCSV(csvText) {
@@ -1332,5 +1866,6 @@
     </script>
 </body>
 </html>
+
 
 
