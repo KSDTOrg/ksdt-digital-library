@@ -329,57 +329,106 @@
             }
         }
 
-                @media (max-width: 1200px) {
-            .cubbies-grid-container {
-                grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+                    @media (max-width: 1200px) {
+            .cubby-shelf {
+                width: 280px;
+            }
+            
+            .album-card {
+                width: 160px;
+                height: 160px;
             }
         }
         
         @media (max-width: 900px) {
-            .cubbies-grid-container {
-                grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-            }
-            
             .cubby-shelf {
-                height: 320px;
-            }
-            
-            .cubby-album-card {
-                width: 130px;
-                height: 130px;
-            }
-        }
-        
-        @media (max-width: 768px) {
-            .cubbies-grid-container {
-                grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-                gap: 20px;
-            }
-            
-            .cubby-shelf {
-                height: 300px;
-                padding: 15px;
+                width: 250px;
+                min-height: 320px;
             }
             
             .cubby-album-card {
                 width: 120px;
                 height: 120px;
             }
+            
+            .album-detail-container {
+                flex-direction: column;
+                max-width: 500px;
+            }
+            
+            .album-detail-image {
+                flex: 0 0 300px;
+                height: 300px;
+                border-right: none;
+                border-bottom: 1px solid var(--border-color);
+            }
+            
+            .album-detail-info {
+                height: auto;
+                max-height: 400px;
+            }
         }
         
-        @media (max-width: 480px) {
-            .cubbies-grid-container {
-                grid-template-columns: 1fr;
-                gap: 15px;
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 20px;
+                padding: 20px;
+            }
+            
+            .controls {
+                width: 100%;
+                justify-content: space-between;
+            }
+            
+            .stats {
+                display: none;
             }
             
             .cubby-shelf {
-                height: 280px;
+                width: 220px;
+                min-height: 300px;
+                padding: 15px;
             }
             
             .cubby-album-card {
                 width: 110px;
                 height: 110px;
+            }
+            
+            .album-card {
+                width: 140px;
+                height: 140px;
+            }
+            
+            .shelf-row {
+                min-height: 260px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .cubby-shelf {
+                width: 200px;
+                min-height: 280px;
+            }
+            
+            .cubby-album-card {
+                width: 95px;
+                height: 95px;
+            }
+            
+            .album-card {
+                width: 120px;
+                height: 120px;
+            }
+            
+            .shelf-title {
+                font-size: 1.1rem;
+            }
+            
+            .grid-column-header {
+                font-size: 1.4rem;
             }
         }
         
@@ -799,26 +848,48 @@
     color: var(--accent-secondary);
 }
         
-                /* Cubby View - COMPLETELY REDESIGNED */
+            /* Cubby View - ORGANIZED GRID LAYOUT */
+        .cubbies-grid-wrapper {
+            overflow-x: auto;
+            padding-bottom: 20px;
+        }
+        
         .cubbies-grid-container {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 25px;
-            padding: 10px;
+            grid-auto-flow: column;
+            grid-template-rows: repeat(10, auto); /* Adjust based on max number found */
+            gap: 20px;
+            padding: 15px;
+            min-width: max-content;
+        }
+        
+        /* Column headers for letters */
+        .grid-column-header {
+            font-size: 1.6rem;
+            font-weight: 800;
+            text-align: center;
+            padding: 15px;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-nebula));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            border-bottom: 2px solid var(--accent-primary);
+            margin-bottom: 10px;
         }
         
         /* New Cubby Design - like mini shelf rows */
         .cubby-shelf {
             background: linear-gradient(145deg, rgba(22, 27, 42, 0.9), rgba(16, 20, 35, 0.9));
             border-radius: 16px;
-            padding: 20px;
+            padding: 18px;
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
             border: 1px solid var(--border-color);
             backdrop-filter: blur(5px);
             transition: transform 0.3s ease;
             display: flex;
             flex-direction: column;
-            height: 350px; /* Fixed height for consistency */
+            width: 320px; /* Fixed width for consistent columns */
+            min-height: 350px; /* Minimum height */
         }
         
         .cubby-shelf:hover {
@@ -838,7 +909,7 @@
         }
         
         .cubby-title {
-            font-size: 1.4rem;
+            font-size: 1.5rem;
             font-weight: 700;
             display: flex;
             align-items: center;
@@ -866,21 +937,22 @@
             overflow-x: auto;
             padding-bottom: 10px;
             flex-grow: 1;
+            scroll-behavior: smooth;
         }
         
         .cubby-album-scroll {
             display: flex;
-            gap: 20px;
+            gap: 15px;
             width: max-content;
-            padding: 5px;
+            padding: 5px 5px 15px 5px;
         }
         
         /* Cubby album cards (same as shelf view) */
         .cubby-album-card {
             background: linear-gradient(145deg, rgba(22, 27, 42, 0.9), rgba(16, 20, 35, 0.9));
             border-radius: 12px;
-            width: 150px;
-            height: 150px;
+            width: 140px;
+            height: 140px;
             flex-shrink: 0;
             overflow: hidden;
             transition: all 0.3s ease;
@@ -961,7 +1033,7 @@
             color: var(--accent-secondary);
         }
         
-        /* Cubby navigation buttons */
+        /* Cubby navigation buttons - FIXED scroll amount */
         .cubby-nav {
             display: flex;
             gap: 10px;
@@ -988,6 +1060,29 @@
             box-shadow: 0 0 15px rgba(138, 111, 255, 0.5);
             transform: scale(1.1);
         }
+        
+        /* Empty shelf placeholder */
+        .empty-cubby {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            padding: 30px;
+            color: var(--text-secondary);
+            text-align: center;
+        }
+        
+        .empty-cubby i {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            opacity: 0.5;
+        }
+        
+        .empty-cubby p {
+            font-size: 0.9rem;
+        }
+        
         
         /* Album Detail View - Cosmic Theme */
         .album-detail-overlay {
@@ -1338,10 +1433,12 @@
             </div>
         </div>
         
-        <!-- Cubby View - NEW DESIGN -->
+                <!-- Cubby View - ORGANIZED GRID -->
         <div id="cubbyView" class="view-container">
-            <div class="cubbies-grid-container" id="cubbiesGrid">
-                <!-- Cubbies will be generated by JavaScript -->
+            <div class="cubbies-grid-wrapper">
+                <div class="cubbies-grid-container" id="cubbiesGrid">
+                    <!-- Grid will be generated by JavaScript -->
+                </div>
             </div>
         </div>
 
@@ -1821,6 +1918,7 @@
 
         // Render the cubby view
                 // Render the new cubby view
+        // Render the organized cubby grid view
         function renderCubbyView() {
             const cubbiesGrid = document.getElementById('cubbiesGrid');
             cubbiesGrid.innerHTML = '';
@@ -1838,102 +1936,167 @@
                 }
             });
             
-            // Convert to array and sort (A1, A2, B1, B2, etc.)
-            const sortedShelves = Array.from(allShelves).sort((a, b) => {
-                // Extract letter and number parts
-                const aLetter = a.match(/^[A-Z]/i)?.[0] || '';
-                const aNumber = parseInt(a.match(/\d+/)?.[0]) || 0;
-                const bLetter = b.match(/^[A-Z]/i)?.[0] || '';
-                const bNumber = parseInt(b.match(/\d+/)?.[0]) || 0;
+            // Extract letters and numbers
+            const shelfMap = new Map();
+            const letters = new Set();
+            const numbers = new Set();
+            
+            Array.from(allShelves).forEach(shelf => {
+                const letter = shelf.match(/^[A-Z]/i)?.[0]?.toUpperCase() || '?';
+                const number = parseInt(shelf.match(/\d+/)?.[0]) || 0;
                 
-                // First sort by letter
-                if (aLetter !== bLetter) {
-                    return aLetter.localeCompare(bLetter);
+                letters.add(letter);
+                numbers.add(number);
+                
+                if (!shelfMap.has(letter)) {
+                    shelfMap.set(letter, new Map());
                 }
-                // Then by number
-                return aNumber - bNumber;
+                shelfMap.get(letter).set(number, shelf);
             });
             
-            // Create a cubby for each unique shelf
-            sortedShelves.forEach(shelfCode => {
-                const shelfAlbums = libraryData.filter(album => album.location === shelfCode);
-                
-                // Create cubby shelf element
-                const cubbyShelf = document.createElement('div');
-                cubbyShelf.className = 'cubby-shelf';
-                
-                cubbyShelf.innerHTML = `
-                    <div class="cubby-header">
-                        <div class="cubby-title">
-                            <i class="fas fa-box"></i>
-                            ${shelfCode}
-                        </div>
-                        <div class="cubby-nav">
-                            <button class="cubby-nav-btn cubby-nav-left"><i class="fas fa-chevron-left"></i></button>
-                            <button class="cubby-nav-btn cubby-nav-right"><i class="fas fa-chevron-right"></i></button>
-                        </div>
-                    </div>
-                    <div class="cubby-count">${shelfAlbums.length} albums</div>
-                    <div class="cubby-album-scroll-container">
-                        <div class="cubby-album-scroll">
-                            ${shelfAlbums.length > 0 ? 
-                                shelfAlbums.map(album => `
-                                    <div class="cubby-album-card" data-id="${album.title}">
-                                        <div class="cubby-album-cover" style="background-image: url(${album.albumcoverurl})"></div>
-                                        <div class="cubby-album-info">
-                                            <div class="album-title">${album.title}</div>
-                                            <div class="album-artist">${album.artist}</div>
-                                            <div class="album-meta">
-                                                <span>${album.releaseYear}</span>
-                                                <span>${album.genres && album.genres[0] ? album.genres[0] : ''}</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                `).join('') : 
-                                `<div class="album-placeholder" style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;">
-                                    <i class="fas fa-star"></i>
-                                    <p>Empty Shelf</p>
-                                </div>`
-                            }
-                        </div>
-                    </div>
-                `;
-                
-                cubbiesGrid.appendChild(cubbyShelf);
-                
-                // Add navigation functionality if there are albums
-                if (shelfAlbums.length > 0) {
-                    const scrollContainer = cubbyShelf.querySelector('.cubby-album-scroll-container');
-                    const navLeft = cubbyShelf.querySelector('.cubby-nav-left');
-                    const navRight = cubbyShelf.querySelector('.cubby-nav-right');
-                    
-                    navLeft.addEventListener('click', () => {
-                        scrollContainer.scrollBy({ left: -200, behavior: 'smooth' });
-                    });
-                    
-                    navRight.addEventListener('click', () => {
-                        scrollContainer.scrollBy({ left: 200, behavior: 'smooth' });
-                    });
-                }
-                
-                // Add click handlers to album cards
-                cubbyShelf.querySelectorAll('.cubby-album-card').forEach(card => {
-                    card.addEventListener('click', function() {
-                        const albumTitle = this.getAttribute('data-id');
-                        const album = libraryData.find(a => a.title === albumTitle);
-                        if (album) {
-                            showAlbumDetail(album);
-                        }
-                    });
-                });
+            // Sort letters and numbers
+            const sortedLetters = Array.from(letters).sort();
+            const sortedNumbers = Array.from(numbers).sort((a, b) => a - b);
+            
+            // Determine grid structure
+            const maxRows = Math.max(...sortedNumbers) || 1;
+            const maxCols = sortedLetters.length;
+            
+            // Set grid rows
+            cubbiesGrid.style.gridTemplateRows = `repeat(${maxRows + 1}, auto)`; // +1 for headers
+            
+            // Create column headers (letters)
+            sortedLetters.forEach(letter => {
+                const header = document.createElement('div');
+                header.className = 'grid-column-header';
+                header.textContent = letter;
+                header.style.gridColumn = `span 1`;
+                header.style.gridRow = '1';
+                cubbiesGrid.appendChild(header);
             });
+            
+            // Create the grid of cubbies
+            for (let row = 0; row < maxRows; row++) {
+                const rowNumber = row + 1;
+                
+                sortedLetters.forEach((letter, colIndex) => {
+                    const shelfCode = shelfMap.get(letter)?.get(rowNumber) || null;
+                    const shelfAlbums = shelfCode ? 
+                        libraryData.filter(album => album.location === shelfCode) : [];
+                    
+                    // Create cubby shelf element
+                    const cubbyShelf = document.createElement('div');
+                    cubbyShelf.className = 'cubby-shelf';
+                    cubbyShelf.style.gridColumn = colIndex + 1;
+                    cubbyShelf.style.gridRow = row + 2; // +2 because row 1 is headers
+                    
+                    if (shelfCode) {
+                        // Shelf exists with albums
+                        cubbyShelf.innerHTML = `
+                            <div class="cubby-header">
+                                <div class="cubby-title">
+                                    <i class="fas fa-box"></i>
+                                    ${shelfCode}
+                                </div>
+                                ${shelfAlbums.length > 3 ? `
+                                    <div class="cubby-nav">
+                                        <button class="cubby-nav-btn cubby-nav-left"><i class="fas fa-chevron-left"></i></button>
+                                        <button class="cubby-nav-btn cubby-nav-right"><i class="fas fa-chevron-right"></i></button>
+                                    </div>
+                                ` : ''}
+                            </div>
+                            <div class="cubby-count">${shelfAlbums.length} album${shelfAlbums.length !== 1 ? 's' : ''}</div>
+                            <div class="cubby-album-scroll-container">
+                                <div class="cubby-album-scroll">
+                                    ${shelfAlbums.length > 0 ? 
+                                        shelfAlbums.map(album => `
+                                            <div class="cubby-album-card" data-id="${album.title}">
+                                                <div class="cubby-album-cover" style="background-image: url(${album.albumcoverurl})"></div>
+                                                <div class="cubby-album-info">
+                                                    <div class="album-title">${album.title}</div>
+                                                    <div class="album-artist">${album.artist}</div>
+                                                    <div class="album-meta">
+                                                        <span>${album.releaseYear}</span>
+                                                        <span>${album.genres && album.genres[0] ? album.genres[0] : ''}</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        `).join('') : 
+                                        `<div class="empty-cubby">
+                                            <i class="fas fa-box-open"></i>
+                                            <p>No albums</p>
+                                        </div>`
+                                    }
+                                </div>
+                            </div>
+                        `;
+                        
+                        // Add navigation functionality if there are enough albums
+                        if (shelfAlbums.length > 3) {
+                            const scrollContainer = cubbyShelf.querySelector('.cubby-album-scroll-container');
+                            const navLeft = cubbyShelf.querySelector('.cubby-nav-left');
+                            const navRight = cubbyShelf.querySelector('.cubby-nav-right');
+                            const cardWidth = 140; // Matches .cubby-album-card width
+                            const gap = 15; // Matches gap in .cubby-album-scroll
+                            
+                            navLeft.addEventListener('click', () => {
+                                scrollContainer.scrollBy({ 
+                                    left: -(cardWidth + gap), // Scroll exactly one album + gap
+                                    behavior: 'smooth' 
+                                });
+                            });
+                            
+                            navRight.addEventListener('click', () => {
+                                scrollContainer.scrollBy({ 
+                                    left: cardWidth + gap, // Scroll exactly one album + gap
+                                    behavior: 'smooth' 
+                                });
+                            });
+                        }
+                    } else {
+                        // Shelf doesn't exist - show empty placeholder
+                        cubbyShelf.innerHTML = `
+                            <div class="cubby-header">
+                                <div class="cubby-title">
+                                    <i class="fas fa-box"></i>
+                                    ${letter}${rowNumber}
+                                </div>
+                            </div>
+                            <div class="cubby-count">0 albums</div>
+                            <div class="cubby-album-scroll-container">
+                                <div class="cubby-album-scroll">
+                                    <div class="empty-cubby">
+                                        <i class="fas fa-question-circle"></i>
+                                        <p>No records<br>to display</p>
+                                    </div>
+                                </div>
+                            </div>
+                        `;
+                    }
+                    
+                    cubbiesGrid.appendChild(cubbyShelf);
+                    
+                    // Add click handlers to album cards if they exist
+                    if (shelfAlbums.length > 0) {
+                        cubbyShelf.querySelectorAll('.cubby-album-card').forEach(card => {
+                            card.addEventListener('click', function() {
+                                const albumTitle = this.getAttribute('data-id');
+                                const album = libraryData.find(a => a.title === albumTitle);
+                                if (album) {
+                                    showAlbumDetail(album);
+                                }
+                            });
+                        });
+                    }
+                });
+            }
             
             // If no shelves with albums, show message
-            if (sortedShelves.length === 0) {
-                cubbiesGrid.innerHTML = '<div class="album-placeholder" style="grid-column: 1 / -1;"><i class="fas fa-boxes"></i><p>No shelves with albums found</p></div>';
+            if (allShelves.size === 0) {
+                cubbiesGrid.innerHTML = '<div class="album-placeholder" style="grid-column: 1 / -1; grid-row: 1 / -1;"><i class="fas fa-boxes"></i><p>No shelves with albums found</p></div>';
             }
         }
-
+       
         // Show album detail view
         function showAlbumDetail(album) {
             const overlay = document.getElementById('album-detail');
